@@ -142,59 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_1/Lecture/1_1/Hello.o: Level_1/Lecture/1_1/Hello.cpp.o
+Level_1/Lecture/1_2/TestDataTypes.o: Level_1/Lecture/1_2/TestDataTypes.cpp.o
 
-.PHONY : Level_1/Lecture/1_1/Hello.o
-
-# target to build an object file
-Level_1/Lecture/1_1/Hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/Hello.cpp.o
-.PHONY : Level_1/Lecture/1_1/Hello.cpp.o
-
-Level_1/Lecture/1_1/Hello.i: Level_1/Lecture/1_1/Hello.cpp.i
-
-.PHONY : Level_1/Lecture/1_1/Hello.i
-
-# target to preprocess a source file
-Level_1/Lecture/1_1/Hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/Hello.cpp.i
-.PHONY : Level_1/Lecture/1_1/Hello.cpp.i
-
-Level_1/Lecture/1_1/Hello.s: Level_1/Lecture/1_1/Hello.cpp.s
-
-.PHONY : Level_1/Lecture/1_1/Hello.s
-
-# target to generate assembly for a file
-Level_1/Lecture/1_1/Hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/Hello.cpp.s
-.PHONY : Level_1/Lecture/1_1/Hello.cpp.s
-
-Level_1/Lecture/1_1/TestHello.o: Level_1/Lecture/1_1/TestHello.cpp.o
-
-.PHONY : Level_1/Lecture/1_1/TestHello.o
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.o
 
 # target to build an object file
-Level_1/Lecture/1_1/TestHello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/TestHello.cpp.o
-.PHONY : Level_1/Lecture/1_1/TestHello.cpp.o
+Level_1/Lecture/1_2/TestDataTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_2/TestDataTypes.cpp.o
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.cpp.o
 
-Level_1/Lecture/1_1/TestHello.i: Level_1/Lecture/1_1/TestHello.cpp.i
+Level_1/Lecture/1_2/TestDataTypes.i: Level_1/Lecture/1_2/TestDataTypes.cpp.i
 
-.PHONY : Level_1/Lecture/1_1/TestHello.i
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.i
 
 # target to preprocess a source file
-Level_1/Lecture/1_1/TestHello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/TestHello.cpp.i
-.PHONY : Level_1/Lecture/1_1/TestHello.cpp.i
+Level_1/Lecture/1_2/TestDataTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_2/TestDataTypes.cpp.i
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.cpp.i
 
-Level_1/Lecture/1_1/TestHello.s: Level_1/Lecture/1_1/TestHello.cpp.s
+Level_1/Lecture/1_2/TestDataTypes.s: Level_1/Lecture/1_2/TestDataTypes.cpp.s
 
-.PHONY : Level_1/Lecture/1_1/TestHello.s
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.s
 
 # target to generate assembly for a file
-Level_1/Lecture/1_1/TestHello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_1/TestHello.cpp.s
-.PHONY : Level_1/Lecture/1_1/TestHello.cpp.s
+Level_1/Lecture/1_2/TestDataTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_2/TestDataTypes.cpp.s
+.PHONY : Level_1/Lecture/1_2/TestDataTypes.cpp.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_1/Lecture/1_1/Hello.o"
-	@echo "... Level_1/Lecture/1_1/Hello.i"
-	@echo "... Level_1/Lecture/1_1/Hello.s"
-	@echo "... Level_1/Lecture/1_1/TestHello.o"
-	@echo "... Level_1/Lecture/1_1/TestHello.i"
-	@echo "... Level_1/Lecture/1_1/TestHello.s"
+	@echo "... Level_1/Lecture/1_2/TestDataTypes.o"
+	@echo "... Level_1/Lecture/1_2/TestDataTypes.i"
+	@echo "... Level_1/Lecture/1_2/TestDataTypes.s"
 .PHONY : help
 
 

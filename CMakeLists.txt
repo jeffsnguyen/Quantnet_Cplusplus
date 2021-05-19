@@ -3,9 +3,7 @@ project(Quantnet_Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_1/Lecture/1_1)
+include_directories(Level_1/Lecture/1_2)
 
 add_executable(Quantnet_Cplusplus
-        Level_1/Lecture/1_1/Hello.cpp
-        Level_1/Lecture/1_1/Hello.hpp
-        Level_1/Lecture/1_1/TestHello.cpp)
+        Level_1/Lecture/1_2/TestDataTypes.cpp)
