@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_1/Hello.cpp
+stdio.h
+-
+iostream
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_1/Hello.hpp
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_1/TestHello.cpp
+Hello.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_1/Hello.hpp
+
