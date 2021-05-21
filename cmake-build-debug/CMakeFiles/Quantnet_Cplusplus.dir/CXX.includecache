@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_2/TestDataTypes.cpp
-limits.h
--
-float.h
--
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_3/TestVariables.cpp
 iostream
 -
 
