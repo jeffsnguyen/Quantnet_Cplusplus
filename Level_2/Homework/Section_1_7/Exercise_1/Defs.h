@@ -2,7 +2,7 @@
 // Level: 1
 // Section: 1.7 Pointers and Arrays
 // Exercise: 1
-// Description: Definition file that include definitions of macros
+// Description: Definition file that include definitions of Swap()
 // Try to create a function Swap().
 //  This function must exchange the value of two variables.
 //  For example: if i=123 and j=456, then i=456 and j=123 after the Swap() function has been called.
