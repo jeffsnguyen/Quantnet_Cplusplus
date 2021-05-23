@@ -76,30 +76,30 @@ include CMakeFiles/Quantnet_Cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Quantnet_Cplusplus.dir/flags.make
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
-CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o: ../Level_1/Lecture/1_3/TestVariables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_3/TestVariables.cpp"
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o: ../Level_2/Homework/Section_1_6/Exercise_2/Macros.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_6/Exercise_2/Macros.c"
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_3/TestVariables.cpp" > CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.i
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_6/Exercise_2/Macros.c" > CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Lecture/1_3/TestVariables.cpp" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.s
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_6/Exercise_2/Macros.c" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s
 
 # Object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_OBJECTS = \
-"CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o"
+"CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o"
 
 # External object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_EXTERNAL_OBJECTS =
 
-Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o
+Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/build.make
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Quantnet_Cplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Quantnet_Cplusplus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Quantnet_Cplusplus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

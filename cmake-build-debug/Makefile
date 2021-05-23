@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_1/Lecture/1_3/TestVariables.o: Level_1/Lecture/1_3/TestVariables.cpp.o
+Level_2/Homework/Section_1_6/Exercise_2/Macros.o: Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o
 
-.PHONY : Level_1/Lecture/1_3/TestVariables.o
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.o
 
 # target to build an object file
-Level_1/Lecture/1_3/TestVariables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.o
-.PHONY : Level_1/Lecture/1_3/TestVariables.cpp.o
+Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.c.o
 
-Level_1/Lecture/1_3/TestVariables.i: Level_1/Lecture/1_3/TestVariables.cpp.i
+Level_2/Homework/Section_1_6/Exercise_2/Macros.i: Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i
 
-.PHONY : Level_1/Lecture/1_3/TestVariables.i
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.i
 
 # target to preprocess a source file
-Level_1/Lecture/1_3/TestVariables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.i
-.PHONY : Level_1/Lecture/1_3/TestVariables.cpp.i
+Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.c.i
 
-Level_1/Lecture/1_3/TestVariables.s: Level_1/Lecture/1_3/TestVariables.cpp.s
+Level_2/Homework/Section_1_6/Exercise_2/Macros.s: Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s
 
-.PHONY : Level_1/Lecture/1_3/TestVariables.s
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.s
 
 # target to generate assembly for a file
-Level_1/Lecture/1_3/TestVariables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_1/Lecture/1_3/TestVariables.cpp.s
-.PHONY : Level_1/Lecture/1_3/TestVariables.cpp.s
+Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s
+.PHONY : Level_2/Homework/Section_1_6/Exercise_2/Macros.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_1/Lecture/1_3/TestVariables.o"
-	@echo "... Level_1/Lecture/1_3/TestVariables.i"
-	@echo "... Level_1/Lecture/1_3/TestVariables.s"
+	@echo "... Level_2/Homework/Section_1_6/Exercise_2/Macros.o"
+	@echo "... Level_2/Homework/Section_1_6/Exercise_2/Macros.i"
+	@echo "... Level_2/Homework/Section_1_6/Exercise_2/Macros.s"
 .PHONY : help
 
 
