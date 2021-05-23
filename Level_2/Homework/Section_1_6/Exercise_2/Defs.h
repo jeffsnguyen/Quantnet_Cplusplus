@@ -2,7 +2,7 @@
 // Level: 1
 // Section: 1.6 The Preprocessor
 // Exercise: 2
-// Description: Definition file that include definitions of macros
+// Description: Definition file that include definitions of MAX2 and MAX3
 // Create the two macros MAX2(x,y) and MAX3(x,y,z).
 //  These macros must return the maximum value of the given arguments.
 //  Let the macro MAX3 make use of the macro MAX2.
