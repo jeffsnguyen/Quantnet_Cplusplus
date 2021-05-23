@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_2/Defs.h">
-			<Option target="Quantnet_Cplusplus"/>
-		</Unit>
 		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_2/test_Length.c">
 			<Option target="Quantnet_Cplusplus"/>
 		</Unit>
