@@ -1,13 +1,13 @@
-// Type: Lecture
+// Type: Homework
 // Level: 1
-// Section: 1.6 The Preprocessor
+// Section: 1.7 Pointers and Arrays
 // Exercise: 2
-// Description: Main file to test the macros.
-// Create the two macros MAX2(x,y) and MAX3(x,y,z).
-//  These macros must return the maximum value of the given arguments.
-//  Let the macro MAX3 make use of the macro MAX2.
-//
-//  Add these macros to the file “Defs.h”.
+// Description: Main file to test Swap()
+// Try to create a function Swap().
+//  This function must exchange the value of two variables.
+//  For example: if i=123 and j=456, then i=456 and j=123 after the Swap() function has been called.
+//  The variables i and j are declared, initialised and printed in the function main().
+//  This problem can be solved by using pointers as arguments for the Swap()function.
 
 /*---------------------------------*/
 #include <stdio.h>

@@ -1,4 +1,4 @@
-// Type: Lecture
+// Type: Homework
 // Level: 1
 // Section: 1.7 Pointers and Arrays
 // Exercise: 2
