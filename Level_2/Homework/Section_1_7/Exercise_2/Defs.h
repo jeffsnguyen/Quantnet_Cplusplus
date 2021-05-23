@@ -1,7 +1,7 @@
 // Type: Homework
 // Level: 1
 // Section: 1.7 Pointers and Arrays
-// Exercise: 1
+// Exercise: 2
 // Description: Definition file that include definitions of macros
 // Try to create a function Swap().
 //  This function must exchange the value of two variables.
