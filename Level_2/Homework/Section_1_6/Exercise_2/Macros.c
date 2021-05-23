@@ -1,4 +1,4 @@
-// Type: Lecture
+// Type: Homework
 // Level: 1
 // Section: 1.6 The Preprocessor
 // Exercise: 2
