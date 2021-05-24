@@ -76,27 +76,27 @@ include CMakeFiles/Quantnet_Cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Quantnet_Cplusplus.dir/flags.make
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
-CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o: ../Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c"
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o: ../Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c"
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c" > CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c" > CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.i
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s
+CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.s
 
 # Object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_OBJECTS = \
-"CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o"
+"CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o"
 
 # External object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_EXTERNAL_OBJECTS =
 
-Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o
+Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c.o
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/build.make
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Quantnet_Cplusplus"

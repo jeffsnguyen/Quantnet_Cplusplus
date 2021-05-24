@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/Article.h
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/test_PrintArticle.c
 stdio.h
 -
+stdlib.h
+-
+Article.h
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_8/Exercise_1/Article.h
 
