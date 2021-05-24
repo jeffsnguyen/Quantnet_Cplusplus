@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_9/Exercise_2/test_IO.c.o"
-  "Quantnet_Cplusplus"
+  "CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_9/Exercise_2/test_IO.c.obj"
+  "Quantnet_Cplusplus.exe"
+  "Quantnet_Cplusplus.exe.manifest"
+  "Quantnet_Cplusplus.lib"
   "Quantnet_Cplusplus.pdb"
 )
 

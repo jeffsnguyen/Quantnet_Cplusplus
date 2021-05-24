@@ -28,8 +28,7 @@ int main()
     printf("Your file name is %s", fname);
 
     // Open the file
-    FILE* f;
-    f = fopen(fname, "w");  // Open file f in write mode
+    FILE* f = fopen(fname, "w");  // Open file f in write mode
 
     // User prompt instruction
     printf("Enter characters below. Press Ctrl+A to end.\n");
