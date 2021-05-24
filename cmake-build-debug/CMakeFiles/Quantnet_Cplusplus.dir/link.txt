@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_2/test_Length.c.o -o Quantnet_Cplusplus 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.o -o Quantnet_Cplusplus 
