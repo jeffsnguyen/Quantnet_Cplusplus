@@ -43,9 +43,8 @@ int main()
         fputc(charInput, f);
     }
 
-    // Close file
+    // Close file and prompt user
     fclose(f);
-
     printf("File input successful at %s", fname);
 
     return 0;
