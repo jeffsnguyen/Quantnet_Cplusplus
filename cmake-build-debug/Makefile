@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.o: Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.o
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.o: Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o
 
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.o
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.o
 
 # target to build an object file
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.o
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.o
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.o
 
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.i: Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.i
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.i: Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i
 
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.i
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.i
 
 # target to preprocess a source file
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.i
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.i
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.i
 
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.s: Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.s
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.s: Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s
 
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.s
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.s
 
 # target to generate assembly for a file
-Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.s
-.PHONY : Level_2/Homework/Section_1_7/Exercise_3/predict_Print.c.s
+Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s
+.PHONY : Level_2/Homework/Section_1_7/Exercise_4/test_DayName.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_2/Homework/Section_1_7/Exercise_3/predict_Print.o"
-	@echo "... Level_2/Homework/Section_1_7/Exercise_3/predict_Print.i"
-	@echo "... Level_2/Homework/Section_1_7/Exercise_3/predict_Print.s"
+	@echo "... Level_2/Homework/Section_1_7/Exercise_4/test_DayName.o"
+	@echo "... Level_2/Homework/Section_1_7/Exercise_4/test_DayName.i"
+	@echo "... Level_2/Homework/Section_1_7/Exercise_4/test_DayName.s"
 .PHONY : help
 
 
