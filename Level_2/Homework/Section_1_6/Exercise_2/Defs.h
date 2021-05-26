@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.6 The Preprocessor
 // Exercise: 2
 // Description: Definition file that include definitions of MAX2 and MAX3

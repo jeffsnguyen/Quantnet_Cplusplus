@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.6 The Preprocessor
 // Exercise: 1
 // Description: Main file to test the macros.

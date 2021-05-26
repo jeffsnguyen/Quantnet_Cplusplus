@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.9 Input and Output
 // Exercise: 2
 // Description: Main file to test file input and output

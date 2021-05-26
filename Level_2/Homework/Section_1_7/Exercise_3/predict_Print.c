@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.7 Pointers and Arrays
 // Exercise: 3
 // Description: Main file to post prediction of what will be printed on the screen

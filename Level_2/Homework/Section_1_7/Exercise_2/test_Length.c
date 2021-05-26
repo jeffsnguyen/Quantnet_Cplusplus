@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.7 Pointers and Arrays
 // Exercise: 2
 // Description: Main file to test Length()

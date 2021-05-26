@@ -1,5 +1,5 @@
 // Type: Homework
-// Level: 1
+// Level: 2
 // Section: 1.8 Structures
 // Exercise: 1
 // Description: Definition file contains struct Article and PrintArticle()
