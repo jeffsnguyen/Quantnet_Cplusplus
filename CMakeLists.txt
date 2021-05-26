@@ -3,7 +3,7 @@ project(Quantnet_Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_1/Homework/Section_1_9/Exercise_2)
+include_directories(Level_3/Homework/Section_2_1/Exercise_1)
 
 add_executable(Quantnet_Cplusplus
-        Level_2/Homework/Section_1_9/Exercise_2/test_IO.c)
+        Level_3/Homework/Section_2_1/Exercise_1/Point.hpp)

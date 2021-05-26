@@ -4,92 +4,88 @@
 	<Project>
 		<Option title="Quantnet_Cplusplus"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
+				<Option working_dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Quantnet_Cplusplus">
-				<Option output="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Quantnet_Cplusplus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Homework/Section_1_9/Exercise_2"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 Quantnet_Cplusplus"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Quantnet_Cplusplus/fast">
-				<Option output="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Quantnet_Cplusplus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_1/Homework/Section_1_9/Exercise_2"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 Quantnet_Cplusplus/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
+				<Option working_dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\sonje\OneDrive\Cloud Storage\Courses\Quantnet\C++\Quantnet_Cplusplus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quantnet_Cplusplus">
+				<Option output="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Quantnet_Cplusplus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_1/Exercise_1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quantnet_Cplusplus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quantnet_Cplusplus/fast">
+				<Option output="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Quantnet_Cplusplus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_1/Exercise_1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Quantnet_Cplusplus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jeffsnguyen/OneDrive/Cloud\ Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Homework/Section_1_9/Exercise_2/test_IO.c">
+		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_1/Exercise_1/Point.hpp">
 			<Option target="Quantnet_Cplusplus"/>
 		</Unit>
-		<Unit filename="C:/Users/sonje/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/CMakeLists.txt">
+		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
