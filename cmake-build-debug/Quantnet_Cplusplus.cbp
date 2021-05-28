@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_1/Exercise_1/Point.hpp">
+		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_1/Exercise_1/test_Point.cpp">
 			<Option target="Quantnet_Cplusplus"/>
 		</Unit>
 		<Unit filename="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/CMakeLists.txt">

@@ -2,7 +2,7 @@
 // Level: 3
 // Section: 2.1 The Class Concept
 // Exercise: 1
-// Description: Definition file contains class Point()
+// Description: Source file contains functionalities for class Point()
 // First add a header file for the Point class with private members for the x- and y-coordinates.
 //  Do not forget to add the #ifndef/#define/#endif statements to avoid multiple inclusion.
 //  Also make sure you make to following public functionality (see also Figure 1):
@@ -21,35 +21,57 @@
 //      The output can be like: “Point(1.5, 3.9)”
 
 /*---------------------------------*/
-#ifndef Point_HPP
-#define Point_HPP
-
+#include "Point.hpp"
 #include <iostream>
+#include <sstream>
+
 using namespace std;
 
 /*---------------------------------*/
-class Point
+// Initializing (x,y) = (newX,newY)
+Point::Point(double newX, double newY) : x(newX), y(newY)
 {
-private:
-	double x;  // X coordinate
-	double y;  // Y coordinate
+}
 
-public:
-	// Constructors
-	Point();  // Default constructor
-	Point(double xval, double yval);  // Initialize with x and y value
+// Destructor
+Point::~Point()
+{
+	cout << "Point destroyed.\n";
+}
 
-    // Destructor
-	~Point();
+// Get x value
+double Point::GetX() const
+{
+	return x;
+}
 
-	// Accessing functions
-    double GetX() const;  // The x-coordinate
-    void SetX(double newX);
-    double GetY() const;  // The y-coordinate
-    void SetY(double newY);
-    string ToString() const;  // Return string description of the point
-};
+// Set new value for x
+void Point::SetX(double newX)
+{ 
+	x = newX;
+}
 
+// Get y value
+double Point::GetY() const
+{
+	return y;
+}
 
+// Set new value for y
+void Point::SetY(double newY)
+{ 
+	y = newY;
+}
 
-#endif // Point_PP
+// Return string description of the point
+string Point::ToString() const
+{
+    // Declare stringstream objects
+    stringstream xSTR, ySTR;
+
+    // Insert inputs to stream
+    xSTR << x;
+    ySTR << y;
+
+    return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
+}

@@ -2,7 +2,7 @@
 // Level: 3
 // Section: 2.1 The Class Concept
 // Exercise: 1
-// Description: Definition file contains class Point()
+// Description: Source file contains functionalities for class Point()
 // First add a header file for the Point class with private members for the x- and y-coordinates.
 //  Do not forget to add the #ifndef/#define/#endif statements to avoid multiple inclusion.
 //  Also make sure you make to following public functionality (see also Figure 1):
@@ -21,35 +21,38 @@
 //      The output can be like: “Point(1.5, 3.9)”
 
 /*---------------------------------*/
-#ifndef Point_HPP
-#define Point_HPP
-
+#include "Point.hpp"
+#include "Point.cpp"
 #include <iostream>
+#include <sstream>
+
 using namespace std;
 
 /*---------------------------------*/
-class Point
+int main()
 {
-private:
-	double x;  // X coordinate
-	double y;  // Y coordinate
+    // Declaring variables
+    double x,y;
 
-public:
-	// Constructors
-	Point();  // Default constructor
-	Point(double xval, double yval);  // Initialize with x and y value
+    // Prompt user input
+    cout << "Enter (x,y) coordinate. For example 1 3 for (1,3): ";
+    cin >> x >> y;
 
-    // Destructor
-	~Point();
+    // Create point1 object using default constructor
+    Point point1(x,y);
 
-	// Accessing functions
-    double GetX() const;  // The x-coordinate
-    void SetX(double newX);
-    double GetY() const;  // The y-coordinate
-    void SetY(double newY);
-    string ToString() const;  // Return string description of the point
-};
+    // Setting x,y coordinates of point1 based on user input
+    point1.SetX(x);
+    point1.SetY(y);
+
+    // Print description of the point using ToString()
+    cout << "[ToString] User entered: " << point1.ToString() << endl;
+
+    // Print description of the point using GetX and GetY
+    cout << "[Get] User entered: Point(" << point1.GetX() << "," << point1.GetY() << ")" << endl;
+
+    return 0;
+}
 
 
 
-#endif // Point_PP

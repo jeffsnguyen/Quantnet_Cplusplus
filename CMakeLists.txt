@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(Level_3/Homework/Section_2_1/Exercise_1)
 
 add_executable(Quantnet_Cplusplus
-        Level_3/Homework/Section_2_1/Exercise_1/Point.hpp)
+        Level_3/Homework/Section_2_1/Exercise_1/test_Point.cpp)
