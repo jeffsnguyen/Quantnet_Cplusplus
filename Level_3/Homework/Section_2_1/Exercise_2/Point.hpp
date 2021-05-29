@@ -39,6 +39,8 @@ public:
     double GetY() const;  // The y-coordinate
     void SetY(double newY);
     string ToString() const;  // Return string description of the point
+    double DistanceOrigin(); // Calculate the distance to the origin (0, 0).
+    double Distance(Point p); // Calculate the distance between two points.
 };
 
 

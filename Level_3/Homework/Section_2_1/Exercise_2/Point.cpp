@@ -15,6 +15,7 @@
 #include "Point.hpp"
 #include <iostream>
 #include <sstream>
+#include <cmath>
 
 using namespace std;
 
@@ -65,4 +66,16 @@ string Point::ToString() const
     ySTR << y;
 
     return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
+}
+
+// Calculate the distance to the origin (0, 0).
+double DistanceOrigin()
+{
+    return sqrt(pow(x,2) + pow(y,2));
+}
+
+// Calculate the distance between two points.
+double Distance(Point p)
+{
+    return sqrt(pow(x-p.GetX(),2) + pow(y-p.GetY(),2));
 }
