@@ -48,12 +48,10 @@ int main()
     cout << "[Get] User entered: Point(" << point1.GetX() << "," << point1.GetY() << ")" << endl;
 
     // Print distance between point1 and the origin
-    cout << "D[Point(" << point1.GetX() << "," << point1.GetY() << "), (0,0)] = "
-        << point1.DistanceOrigin() << endl;
+    cout << "D[" << point1.ToString() << ", (0,0)] = " << point1.DistanceOrigin() << endl;
 
     // Print distance between point1 and point2
-    cout << "D[Point(" << point1.GetX() << "," << point1.GetY() <<
-        "), Point(" <<point2.GetX() << "," << point2.GetY() << ") = " << point1.Distance(point2) << endl;
+    cout << "D[" << point1.ToString() << ", " << point2.ToString() << "] = " << point1.Distance(point2) << endl;
 
     return 0;
 }

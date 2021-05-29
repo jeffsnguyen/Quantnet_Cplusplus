@@ -21,7 +21,7 @@ using namespace std;
 
 /*---------------------------------*/
 // Initializing (x,y) = (newX,newY)
-Point::Point(double newX, double newY) : x(newX), y(newY)
+Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
 {
 }
 
@@ -34,25 +34,25 @@ Point::~Point()
 // Get x value
 double Point::GetX() const
 {
-	return x;
+	return m_x;
 }
 
 // Set new value for x
 void Point::SetX(double newX)
 { 
-	x = newX;
+	m_x = newX;
 }
 
 // Get y value
 double Point::GetY() const
 {
-	return y;
+	return m_y;
 }
 
 // Set new value for y
 void Point::SetY(double newY)
 { 
-	y = newY;
+	m_y = newY;
 }
 
 // Return string description of the point
@@ -62,20 +62,20 @@ string Point::ToString() const
     stringstream xSTR, ySTR;
 
     // Insert inputs to stream
-    xSTR << x;
-    ySTR << y;
+    xSTR << m_x;
+    ySTR << m_y;
 
     return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
 }
 
 // Calculate the distance to the origin (0, 0).
-double DistanceOrigin()
+double Point::DistanceOrigin() const
 {
-    return sqrt(pow(x,2) + pow(y,2));
+    return sqrt(pow(m_x,2) + pow(m_y,2));
 }
 
 // Calculate the distance between two points.
-double Distance(Point p)
+double Point::Distance(Point p) const
 {
-    return sqrt(pow(x-p.GetX(),2) + pow(y-p.GetY(),2));
+    return sqrt(pow(m_x-p.GetX(),2) + pow(m_y-p.GetY(),2));
 }
