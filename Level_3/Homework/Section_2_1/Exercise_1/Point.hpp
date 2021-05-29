@@ -31,8 +31,8 @@ using namespace std;
 class Point
 {
 private:
-	double x;  // X coordinate
-	double y;  // Y coordinate
+	double m_x;  // X coordinate
+	double m_y;  // Y coordinate
 
 public:
 	// Constructors

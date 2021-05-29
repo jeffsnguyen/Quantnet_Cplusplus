@@ -29,7 +29,7 @@ using namespace std;
 
 /*---------------------------------*/
 // Initializing (x,y) = (newX,newY)
-Point::Point(double newX, double newY) : x(newX), y(newY)
+Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
 {
 }
 
@@ -42,25 +42,25 @@ Point::~Point()
 // Get x value
 double Point::GetX() const
 {
-	return x;
+	return m_x;
 }
 
 // Set new value for x
 void Point::SetX(double newX)
 { 
-	x = newX;
+	m_x = newX;
 }
 
 // Get y value
 double Point::GetY() const
 {
-	return y;
+	return m_y;
 }
 
 // Set new value for y
 void Point::SetY(double newY)
 { 
-	y = newY;
+	m_y = newY;
 }
 
 // Return string description of the point
@@ -70,8 +70,8 @@ string Point::ToString() const
     stringstream xSTR, ySTR;
 
     // Insert inputs to stream
-    xSTR << x;
-    ySTR << y;
+    xSTR << m_x;
+    ySTR << m_y;
 
     return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
 }
