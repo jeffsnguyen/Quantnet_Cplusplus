@@ -1,6 +1,6 @@
 // Type: Homework
 // Level: 3
-// Section: 2.1 The Class Concept
+// Section: 2.2 The Class Concept
 // Exercise: 1
 // Description: Definition file contains class Point()
 // First add a header file for the Point class with private members for the x- and y-coordinates.
