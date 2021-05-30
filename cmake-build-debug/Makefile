@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.o: Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.o
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.o: Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.o
 
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.o
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.o
 
 # target to build an object file
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.o
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.o
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.o
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.o
 
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.i: Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.i
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.i: Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.i
 
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.i
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.i
 
 # target to preprocess a source file
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.i
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.i
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.i
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.i
 
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.s: Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.s
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.s: Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.s
 
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.s
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.s
 
 # target to generate assembly for a file
-Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.s
-.PHONY : Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp.s
+Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.s
+.PHONY : Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_3/Homework/Section_2_3/Exercise_5/test_Line.o"
-	@echo "... Level_3/Homework/Section_2_3/Exercise_5/test_Line.i"
-	@echo "... Level_3/Homework/Section_2_3/Exercise_5/test_Line.s"
+	@echo "... Level_3/Homework/Section_2_3/Exercise_6/test_Circle.o"
+	@echo "... Level_3/Homework/Section_2_3/Exercise_6/test_Circle.i"
+	@echo "... Level_3/Homework/Section_2_3/Exercise_6/test_Circle.s"
 .PHONY : help
 
 
