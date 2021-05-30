@@ -2,7 +2,7 @@
 // Level: 3
 // Section: 2.3 Improving Your Classes
 // Exercise: 5
-// Description: Source file contains functionalities for class Point()
+// Description: Source file contains functionalities for class Line()
 // In the final exercise for this chapter we are going to create a Line class.
 // The Line class has a start- and an end-point. So the Line class should have two Point objects as data members.
 // This mechanism is called “composition”. See also Figure 3. Give the Line class the following functionality:
