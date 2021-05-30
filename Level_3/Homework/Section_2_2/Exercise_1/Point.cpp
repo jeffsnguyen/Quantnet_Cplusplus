@@ -28,6 +28,11 @@
 using namespace std;
 
 /*---------------------------------*/
+// Initializing (x,y) = (0,0)
+Point::Point() : m_x(0), m_y(0)
+{
+}
+
 // Initializing (x,y) = (newX,newY)
 Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
 {
