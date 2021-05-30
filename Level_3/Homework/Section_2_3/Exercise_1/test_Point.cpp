@@ -53,6 +53,8 @@ int main()
     // Print distance between point1 and point2
     cout << "D[" << point1.ToString() << ", " << point2.ToString() << "] = " << point1.Distance(point2) << endl;
 
+    // FIRST QUESTION: Constructors were called twice, destructor three times.
+
     return 0;
 }
 

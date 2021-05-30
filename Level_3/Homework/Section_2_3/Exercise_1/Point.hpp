@@ -28,7 +28,8 @@ private:
 public:
 	// Constructors
 	Point();  // Default constructor
-	Point(double xval, double yval);  // Initialize with x and y value
+	Point(double newX, double newY);  // Initialize with x and y value
+    Point(const Point& point);
 
     // Destructor
 	~Point();

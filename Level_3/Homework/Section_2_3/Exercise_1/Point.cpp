@@ -23,12 +23,19 @@ using namespace std;
 // Initializing (x,y) = (0,0)
 Point::Point() : m_x(0), m_y(0)
 {
+    cout << "Default point created" << endl;
 }
 
 // Initializing (x,y) = (newX,newY)
-Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
+Point::Point(double newX, double newY): m_x(newX), m_y(newY)
 {
-    cout << "Default point created." << endl;
+    cout << "Point created." << endl;
+}
+
+// Copy Constructor: Initializing (x,y) = (newX,newY)
+Point::Point(const Point& point): m_x(point.m_x), m_y(point.m_y)
+{
+    cout << "Copy constructor called." << endl;
 }
 
 // Destructor
