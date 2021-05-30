@@ -29,7 +29,7 @@ public:
 	// Constructors
 	Point();  // Default constructor
 	Point(double newX, double newY);  // Initialize with x and y value
-    Point(const Point& point);
+    Point(const Point& point);  // Copy constructor
 
     // Destructor
 	~Point();
