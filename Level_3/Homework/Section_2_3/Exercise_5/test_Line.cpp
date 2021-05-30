@@ -19,6 +19,8 @@
 //  Use const arguments, const functions and pass objects by reference where applicable.
 
 /*---------------------------------*/
+#include "Line.hpp"
+#include "Line.cpp"
 #include "Point.hpp"
 #include "Point.cpp"
 #include <iostream>
@@ -40,28 +42,25 @@ int main()
     cout << "Enter point2(x,y) coordinate. For example 1 3 for (1,3): ";
     cin >> x2 >> y2;
 
-    // Create point1 object using default constructor
-    Point point1(x1,y1);
-    Point point2(x2,y2);
+    // Create points and line object using default constructor
+    Point startPoint(x1,y1);
+    Point endPoint(x2,y2);
+    Line line1(startPoint, endPoint);
 
-    // Setting x,y coordinates of point1 based on user input
-    point1.X(x1);
-    point1.Y(y1);
+    // Setting point1 based on user input using setter
+    line1.point1(startPoint);
+    line1.point2(endPoint);
 
-    // Print description of the point using ToString()
-    cout << "[ToString] User entered: " << point1.ToString() << endl;
+    // Print description of the line using ToString()
+    cout << "[ToString] User entered: " << line1.ToString() << endl;
 
-    // Print description of the point using GetX and GetY
-    cout << "[Get] User entered: Point(" << point1.X() << "," << point1.Y() << ")" << endl;
+    // Print description of the line using getters point1 and point2
+    cout << "[Get] User entered: Line(" << line1.point1().ToString()
+        << "," << line1.point2().ToString() << ")" << endl;
 
-    // Print distance between point1 and the origin
-    cout << "D[" << point1.ToString() << ", (0,0)] = " << point1.Distance() << endl;
+    // Print length of line
+    cout << "Length[" << line1.ToString() << "] = " << line1.Length() << endl;
 
-    // Print distance between point1 and point2
-    cout << "D[" << point1.ToString() << ", " << point2.ToString() << "] = " << point1.Distance(point2) << endl;
-
-    // Constructors called twice and so were destructors, vs. 3 times before.
-    // Not able to change input point in Distance()
 
     return 0;
 }
