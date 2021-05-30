@@ -27,7 +27,7 @@
 using namespace std;
 
 /*---------------------------------*/
-// Initializing (x,y) = (0,0)
+// Initializing Line(p1,p2) = Line((0,0),(0,0))
 Line::Line() : P1(0,0), P2(0,0)
 {
     cout << "Default line created" << endl;
