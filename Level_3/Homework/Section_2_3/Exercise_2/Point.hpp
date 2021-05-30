@@ -49,4 +49,4 @@ public:
 
 
 
-#endif // Point_PP
+#endif // Point_HPP
