@@ -20,7 +20,6 @@
 #ifndef Circle_HPP
 #define Circle_HPP
 
-#ifndef _USE_MATH_DEFINES
 #define _USE_MATH_DEFINES
 
 #include <iostream>
@@ -55,7 +54,5 @@ public:
     double Area() const;  // Calculate the area of the circle
     double Circumference() const;  // Calculate the circumference of the circle
 };
-
-
 
 #endif // Circle_HPP

@@ -17,8 +17,8 @@
 //  #define _USE_MATH_DEFINES
 
 /*---------------------------------*/
-#include "Line.hpp"
-#include "Line.cpp"
+#include "Circle.hpp"
+#include "Circle.cpp"
 #include "Point.hpp"
 #include "Point.cpp"
 #include <iostream>
@@ -30,35 +30,31 @@ using namespace std;
 int main()
 {
     // Declaring variables
-    double x1,y1,x2,y2;
+    double x, y, r;
 
-    // Prompt user input for point1
-    cout << "Enter point1(x,y) coordinate. For example 1 3 for (1,3): ";
-    cin >> x1 >> y1;
+    // Prompt user input for center point of the circle
+    cout << "Enter centerPoint(x,y) coordinate. For example 1 3 for (1,3): ";
+    cin >> x >> y;
 
-    // Prompt user input for point2
-    cout << "Enter point2(x,y) coordinate. For example 1 3 for (1,3): ";
-    cin >> x2 >> y2;
+    // Prompt user input for radius of the circle
+    cout << "Enter radius: ";
+    cin >> r;
 
-    // Create points and line object using default constructor
-    Point startPoint(x1,y1);
-    Point endPoint(x2,y2);
-    Line line1(startPoint, endPoint);
+    // Create circle object using default constructor
+    Point centerPoint(x,y);
+    Circle circle1(centerPoint, r);
 
-    // Setting point1 based on user input using setter
-    line1.point1(startPoint);
-    line1.point2(endPoint);
+    // Print description of the circle using ToString()
+    cout << "[ToString] User entered: " << circle1.ToString() << endl;
 
-    // Print description of the line using ToString()
-    cout << "[ToString] User entered: " << line1.ToString() << endl;
+    // Print Diameter of circle
+    cout << "Diameter[" << circle1.ToString() << "] = " << circle1.Diameter() << endl;
 
-    // Print description of the line using getters point1 and point2
-    cout << "[Get] User entered: Line(" << line1.point1().ToString()
-        << "," << line1.point2().ToString() << ")" << endl;
+    // Print Diameter of circle
+    cout << "Area[" << circle1.ToString() << "] = " << circle1.Area() << endl;
 
-    // Print length of line
-    cout << "Length[" << line1.ToString() << "] = " << line1.Length() << endl;
-
+    // Print Diameter of circle
+    cout << "Circumference[" << circle1.ToString() << "] = " << circle1.Circumference() << endl;
 
     return 0;
 }

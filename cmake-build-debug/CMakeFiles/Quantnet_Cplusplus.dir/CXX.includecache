@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Line.cpp
-Line.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Circle.cpp
+Circle.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Circle.hpp
 iostream
 -
 sstream
@@ -16,15 +16,17 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Circle.hpp
 iostream
 -
 Point.hpp
 -
+cmath
+-
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Point.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Point.hpp
 iostream
 -
 sstream
@@ -32,19 +34,19 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Point.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/test_Line.cpp
-Line.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Line.hpp
-Line.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Line.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/test_Circle.cpp
+Circle.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Circle.hpp
+Circle.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Circle.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Point.hpp
 Point.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_5/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_6/Point.cpp
 iostream
 -
 sstream
