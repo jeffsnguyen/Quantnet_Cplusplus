@@ -6,27 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/Point.cpp
-Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_2/Lecture/quiz.cpp
 iostream
--
-sstream
--
-cmath
--
-
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/Point.hpp
-iostream
--
-
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/test_Point.cpp
-Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/Point.hpp
-Point.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_3/Homework/Section_2_3/Exercise_7/Point.cpp
-iostream
--
-sstream
 -
 

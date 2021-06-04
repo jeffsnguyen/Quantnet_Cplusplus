@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Quantnet_Cplusplus.dir/Level_3/Homework/Section_2_3/Exercise_7/test_Point.cpp.o"
+  "CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o"
   "Quantnet_Cplusplus"
   "Quantnet_Cplusplus.pdb"
 )

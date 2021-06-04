@@ -7,15 +7,21 @@
 // DJD
 //
 
-#include <stdio.h>
-#define sqr(x) (x * x)
+#include <iostream>
+
+void Swap(int& a, int& b)
+{
+int tmp=a;
+a=b;
+b=tmp;
+}
 
 int main()
 {
+    int i1=10;
+    int i2=20;
 
-    int* ip;
-    *ip=10;
-    printf("%d\n", ip);
+    Swap(i1, i2);
 
-	return 0;
+    std::cout<<"i1="<<i1<<", i2="<<i2<<std::endl;
 }
