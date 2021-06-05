@@ -10,7 +10,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Level_4/Homework/Section_2_4"
+  "../Level_4/Homework/Section_2_4/Exercise_1"
   )
 
 # Targets to which this target links.

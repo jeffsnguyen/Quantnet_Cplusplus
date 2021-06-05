@@ -41,32 +41,50 @@ using namespace std;
 /*---------------------------------*/
 int main()
 {
+    // Testing Points
+    /*---------------------------------*/
     // Declaring variables
-    double x, y, r;
+    double x1, y1, x2, y2;
 
-    // Prompt user input for center point of the circle
-    cout << "Enter centerPoint(x,y) coordinate. For example 1 3 for (1,3): ";
-    cin >> x >> y;
+    // Prompt user input for points
+    cout << "Enter first Point(x1,y1) coordinate. For example 1 3 for (1,3): ";
+    cin >> x1 >> y1;
+    cout << "Enter second Point(x2,y2) coordinate. For example 1 3 for (1,3): ";
+    cin >> x2 >> y2;
 
-    // Prompt user input for radius of the circle
-    cout << "Enter radius: ";
-    cin >> r;
+    // Initialize points
+    Point p1(x1,y1);
+    Point p2(x2,y2);
 
-    // Create circle object using default constructor
-    Point centerPoint(x,y);
-    Circle circle1(centerPoint, r);
+    // Point operator -
+    cout << "Test: Testing - operator" << endl;
+    Point pMinus = p1 + - p2;  // Expected: pMinus(x1-x2, y1-y2)
+    cout << p1.ToString() << " - " << p2.ToString() << " = " << pMinus.ToString() << endl;
 
-    // Print description of the circle using ToString()
-    cout << "[ToString] User entered: " << circle1.ToString() << endl;
+    // Point operator *
+    cout << "Test: Testing * operator" << endl;
+    Point pMultiply = p1 * 2;  // Expected: pMultiply(x1*2, x2*2)
+    cout << p1.ToString() << " * " << 2 << " = " << pMultiply.ToString() << endl;
 
-    // Print Diameter of circle
-    cout << "Diameter[" << circle1.ToString() << "] = " << circle1.Diameter() << endl;
+    // Point operator +
+    cout << "Test: Testing + operator" << endl;
+    Point pAdd = p1 + p2;  // Expected: pMinus(x1+x2, y1+y2)
+    cout << p1.ToString() << " - " << p2.ToString() << " = " << pAdd.ToString() << endl;
 
-    // Print Diameter of circle
-    cout << "Area[" << circle1.ToString() << "] = " << circle1.Area() << endl;
+    // Point operator ==
+    cout << "Test: Testing == operator" << endl;
+    bool compare = p1 == p2;  // Expected: 0 if different, 1 if similar
+    cout << p1.ToString() << " == " << p2.ToString() << " : " << compare << endl;
 
-    // Print Diameter of circle
-    cout << "Circumference[" << circle1.ToString() << "] = " << circle1.Circumference() << endl;
+    // Point operator =
+    cout << "Test: Testing = operator" << endl;
+    Point pAssign = p1;  // Expected: pAssign(x1, y1)
+    cout << p1.ToString() << " = " << pAssign.ToString() << endl;
+
+    // Point operator *=
+    cout << "Test: Testing *= operator" << endl;
+    pAssign *= 2;  // Expected: pAssign(x1*2, y1*2)
+    cout << p1.ToString() << " * 2 = " << pAssign.ToString() << endl;
 
     return 0;
 }

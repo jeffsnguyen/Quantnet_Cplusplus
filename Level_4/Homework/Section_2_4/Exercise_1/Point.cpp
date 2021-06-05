@@ -9,6 +9,7 @@
 // Thus adding mathematical operators to a complex number class is good
 //  but using a + operator with a double as an argument on a point
 //  to increase the x-coordinate is questionable. So use operators with care.
+//
 // In this exercise we add a few operators to the Point class.
 // Most operators do not change the original objects but return the result as a new object.
 // Normally only the = operator and += and variants change the original object. Add the following operators:
@@ -108,4 +109,53 @@ double Point::Distance() const
 double Point::Distance(const Point& p) const
 {
     return sqrt(pow(m_x-p.X(),2) + pow(m_y-p.Y(),2));
+}
+
+// Negate the coordinates.
+Point Point::operator - () const
+{
+    return Point(-m_x, -m_y);
+}
+
+// Scale the coordinates.
+Point Point::operator * (double factor) const
+{
+    return Point(factor*m_x, factor*m_y);
+}
+
+// Add coordinates.
+Point Point::operator + (const Point& p) const
+{
+    return Point(m_x+p.m_x, m_y+p.m_y);
+}
+
+// Equally compare operator.
+bool Point::operator == (const Point& p) const
+{
+    if (m_x == p.m_x and m_y == p.m_y)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+// Assignment operator.
+Point& Point::operator = (const Point& source)
+{
+    m_x = source.m_x;
+    m_y = source.m_y;
+
+    return *this;  // Assign the result to itself
+}
+
+// Scale the coordinates & assign.
+Point& Point::operator *= (double factor)
+{
+    m_x = factor * m_x;
+    m_y = factor * m_y;
+
+    return *this;  // Assign the result to itself
 }

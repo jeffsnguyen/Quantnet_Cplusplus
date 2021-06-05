@@ -59,6 +59,14 @@ public:
     string ToString() const;  // Return string description of the point
     double Distance() const; // Calculate the distance to the origin (0, 0).
     double Distance(const Point& p) const; // Calculate the distance between two points.
+
+    // Overloading operators
+    Point operator - () const; // Negate the coordinates.
+    Point operator * (double factor) const; // Scale the coordinates.
+    Point operator + (const Point& p) const; // Add coordinates.
+    bool operator == (const Point& p) const; // Equally compare operator.
+    Point& operator = (const Point& source); // Assignment operator.
+    Point& operator *= (double factor); // Scale the coordinates & assign.
 };
 
 
