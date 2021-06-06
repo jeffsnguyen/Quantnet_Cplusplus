@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/Point.cpp
-Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Line.cpp
+Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Line.hpp
 iostream
 -
 sstream
@@ -16,15 +16,35 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Line.hpp
+iostream
+-
+Point.hpp
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Point.cpp
+Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Point.hpp
+iostream
+-
+sstream
+-
+cmath
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Point.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/test_Operators.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/test_Operators.cpp
+Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Line.hpp
+Line.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Line.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Point.hpp
 Point.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_3/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_4/Point.cpp
 iostream
 -
 sstream
