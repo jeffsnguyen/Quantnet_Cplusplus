@@ -2,7 +2,7 @@
 // Level: 4
 // Section: 2.4 Basic Operators Overloading
 // Exercise: 1
-// Description: Source file contains functionalities for class Circle()
+// Description: Test program to test functionalities of operators.
 // By supporting operators, you can make your classes easier and more natural to use.
 // However you must not “overuse” operators. Only use operators
 //  if the functionality of the operator is clear without reading documentation.

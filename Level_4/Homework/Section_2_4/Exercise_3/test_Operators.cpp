@@ -2,7 +2,7 @@
 // Level: 4
 // Section: 2.4 Basic Operators Overloading
 // Exercise: 3
-// Description: Source file contains functionalities for class Circle()
+// Description: Test program to test functionalities of operators.
 // In this exercise we are going to do a little experiment.
 //
 // First add to the Point class a constructor that accepts one double as an argument.

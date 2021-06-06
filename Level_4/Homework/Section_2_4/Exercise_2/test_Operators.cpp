@@ -2,7 +2,7 @@
 // Level: 4
 // Section: 2.4 Basic Operators Overloading
 // Exercise: 2
-// Description: Source file contains functionalities for class Circle()
+// Description: Test program to test functionalities of operators.
 // It would be nice if you could send a point or a line directly
 //  to the cout object without calling the ToString() method,
 //  just as with the primitive types.

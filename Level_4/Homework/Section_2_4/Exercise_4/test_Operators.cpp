@@ -2,7 +2,7 @@
 // Level: 4
 // Section: 2.4 Basic Operators Overloading
 // Exercise: 4
-// Description: Source file contains functionalities for class Circle()
+// Description: Test program to test functionalities of operators.
 // Normally, only member functions of a class can access the private members of that class.
 // Global functions and other classes can’t access the private members of that class.
 // You can make an exception on that rule by declaring certain functions or classes as friend.
