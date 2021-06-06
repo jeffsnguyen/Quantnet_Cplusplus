@@ -65,6 +65,9 @@ public:
     double Diameter() const;  // Calculate the diameter of the circle
     double Area() const;  // Calculate the area of the circle
     double Circumference() const;  // Calculate the circumference of the circle
+
+    // Overloading operator
+    Circle& operator = (const Circle& source); // Assignment operator.
 };
 
 #endif // Circle_HPP

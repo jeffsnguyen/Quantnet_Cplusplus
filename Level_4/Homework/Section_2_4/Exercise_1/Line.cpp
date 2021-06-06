@@ -96,3 +96,20 @@ double Line::Length() const
 {
     return P1.Distance(P2);
 }
+
+// Assignment operator.
+Line& Line::operator = (const Line& source)
+{
+    // Self-assignment preclusion
+    if (this == &source)
+    {
+        return *this;
+    }
+    else
+    {
+        P1 = source.P1;
+        P2 = source.P2;
+
+        return *this;
+    }
+}

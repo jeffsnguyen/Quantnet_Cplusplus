@@ -31,6 +31,8 @@
 /*---------------------------------*/
 #include "Circle.hpp"
 #include "Circle.cpp"
+#include "Line.hpp"
+#include "Line.cpp"
 #include "Point.hpp"
 #include "Point.cpp"
 #include <iostream>
@@ -43,6 +45,8 @@ int main()
 {
     // Testing Points
     /*---------------------------------*/
+    cout << "Testing Points" << endl;
+    cout << "/*---------------------------------*/" << endl;
     // Declaring variables
     double x1, y1, x2, y2;
 
@@ -85,6 +89,35 @@ int main()
     cout << "Test: Testing *= operator" << endl;
     pAssign *= 2;  // Expected: pAssign(x1*2, y1*2)
     cout << p1.ToString() << " * 2 = " << pAssign.ToString() << endl;
+
+    // Testing Line
+    /*---------------------------------*/
+    cout << "Testing Line" << endl;
+    cout << "/*---------------------------------*/" << endl;
+
+    //Initializing Line
+    Line l1(p1, p2);
+
+    // Line operator =
+    cout << "Test: Testing = operator" << endl;
+    Line lAssign = l1;  // Expected: lAssign(p1, p2)
+    cout << l1.ToString() << " = " << lAssign.ToString() << endl;
+
+    // Testing Circle
+    /*---------------------------------*/
+    cout << "Testing Circle" << endl;
+    cout << "/*---------------------------------*/" << endl;
+
+    // Declaring radius variable and initialize it to be the length of l1
+    double r = l1.Length();
+
+    //Initializing Circle with center point p1 and radius r
+    Circle c1(p1, r);
+
+    // Circle operator =
+    cout << "Test: Testing = operator" << endl;
+    Circle cAssign = c1;  // Expected: cAssign(p1, r)
+    cout << c1.ToString() << " = " << cAssign.ToString() << endl;
 
     return 0;
 }

@@ -60,6 +60,9 @@ public:
     void point2(const Point& newP2);
     string ToString() const;  // Return string description of the line
     double Length() const;  // Calculate the length of the line
+
+    // Overloading Operator
+    Line& operator = (const Line& source); // Assignment operator.
 };
 
 

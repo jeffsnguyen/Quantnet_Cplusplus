@@ -24,6 +24,22 @@ Point.hpp
 cmath
 -
 
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Line.cpp
+Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Line.hpp
+iostream
+-
+sstream
+-
+cmath
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Line.hpp
+iostream
+-
+Point.hpp
+-
+
 /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Point.cpp
 Point.hpp
 /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Point.hpp
@@ -43,6 +59,10 @@ Circle.hpp
 /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Circle.hpp
 Circle.cpp
 /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Circle.cpp
+Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Line.hpp
+Line.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Line.cpp
 Point.hpp
 /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_4/Exercise_1/Point.hpp
 Point.cpp

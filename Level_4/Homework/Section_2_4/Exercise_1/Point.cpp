@@ -145,10 +145,18 @@ bool Point::operator == (const Point& p) const
 // Assignment operator.
 Point& Point::operator = (const Point& source)
 {
-    m_x = source.m_x;
-    m_y = source.m_y;
+    // Self-assignment preclusion
+    if (this == &source)
+    {
+        return *this;
+    }
+    else
+    {
+        m_x = source.m_x;
+        m_y = source.m_y;
 
-    return *this;  // Assign the result to itself
+        return *this;  // Assign the result to itself
+    }
 }
 
 // Scale the coordinates & assign.

@@ -3,6 +3,8 @@
 
 CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Circle.cpp
 CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Circle.hpp
+CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Line.cpp
+CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Line.hpp
 CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Point.cpp
 CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/Point.hpp
 CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp.o: ../Level_4/Homework/Section_2_4/Exercise_1/test_Operators.cpp

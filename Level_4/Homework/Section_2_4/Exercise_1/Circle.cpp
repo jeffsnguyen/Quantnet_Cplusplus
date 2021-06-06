@@ -114,3 +114,20 @@ double Circle::Circumference() const
 {
     return 2 * M_PI * r;
 }
+
+// Assignment operator.
+Circle& Circle::operator = (const Circle& source)
+{
+    // Self-assignment preclusion
+    if (this == &source)
+    {
+        return *this;
+    }
+    else
+    {
+        C = source.C;
+        r = source.r;
+
+        return *this;  // Assign the result to itself
+    }
+}
