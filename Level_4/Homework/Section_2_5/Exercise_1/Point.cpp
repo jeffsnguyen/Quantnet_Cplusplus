@@ -1,7 +1,7 @@
 // Type: Homework
 // Level: 4
 // Section: 2.4 Basic Operators Overloading
-// Exercise: 4
+// Exercise: 1
 // Description: Source file contains functionalities for class Point()
 // Until now, we created objects on the stack.
 // The stack is limited in size thus when creating many objects,
