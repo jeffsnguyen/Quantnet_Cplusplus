@@ -46,11 +46,55 @@ using namespace std;
 /*---------------------------------*/
 int main()
 {
+    /*---------------------------------*/
     // Create Point objects on the heap with new using the default constructor
     Point* pDefault = new Point();
     // Create Point objects on the heap with new using constructor with coordinates
     Point* pWCoord = new Point(1,1);
+    // Create Point objects on the heap with new using copy constructor
+    //  and assign it to pointer variable
+    Point* pCopy = new Point(*pWCoord);
 
+    // Call Distance() member function using -> and send pointers to cout
+    double dist;
+    dist = pDefault->Distance(*pWCoord);
+    cout << "D[" << *pDefault << "," << *pWCoord << "] = " << dist << endl;
+    cout << "Copied point = " << *pCopy << endl;
+
+    // Delete objects
+    delete pDefault;
+    delete pWCoord;
+    delete pCopy;
+
+    /*---------------------------------*/
+    int sizeArr;  // Initialize array size var
+
+    // User input prompt for array size
+    cout << "Enter array size = ";
+    cin >> sizeArr;
+
+    // Error: This is supposed to throw an error per the assignment
+    // But it compiled fine under C-Lion. Create arr of 10 points and destroyed all 10 afterwards
+    //Point pArr[sizeArr];
+
+    // Initialize array on the heap using new
+    Point* pArr = new Point[sizeArr];
+
+    // Use default constructor for objects in array
+    for (int idx=0; idx<sizeArr; idx++)
+    {
+        pArr[idx] = Point();
+        cout << "pArr[" << idx << "] = " << pArr[idx] << endl;
+    }
+
+    // Using constructor with coordinate for objects in array
+    for (int idx=0; idx<sizeArr; idx++)
+    {
+        pArr[idx] = Point(1,1);
+        cout << "pArr[" << idx << "] = " << pArr[idx] << endl;
+    }
+
+    delete[] pArr; // Delete arrays
 
     return 0;
 }
