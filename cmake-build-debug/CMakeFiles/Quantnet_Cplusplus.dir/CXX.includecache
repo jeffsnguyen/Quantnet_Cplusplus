@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Array.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.hpp
+Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Array.hpp
 iostream
 -
 sstream
@@ -16,17 +18,33 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Array.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/test_Objects.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/Point.hpp
-Point.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_2/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.hpp
 iostream
 -
 sstream
+-
+cmath
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.hpp
+iostream
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp
+Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.hpp
+Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Point.cpp
+Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Array.hpp
+Array.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/Array.cpp
+iostream
 -
 
