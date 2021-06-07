@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.o: Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.o
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
 
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.o
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o
 
 # target to build an object file
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.o
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.o
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
 
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.i: Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.i
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
 
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.i
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i
 
 # target to preprocess a source file
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.i
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.i
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
 
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.s: Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.s
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
 
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.s
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s
 
 # target to generate assembly for a file
-Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.s
-.PHONY : Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.s
+Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
+.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.o"
-	@echo "... Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.i"
-	@echo "... Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.s"
+	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o"
+	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i"
+	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s"
 .PHONY : help
 
 

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp" "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_5/Exercise_3/test_ArrayClass.cpp.o"
+  "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp" "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Level_4/Homework/Section_2_5/Exercise_3"
+  "../Level_4/Homework/Section_2_6/Exercise_1"
   )
 
 # Targets to which this target links.
