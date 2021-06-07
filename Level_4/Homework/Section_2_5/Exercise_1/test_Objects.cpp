@@ -3,24 +3,39 @@
 // Section: 2.5 The Free Store
 // Exercise: 1
 // Description: Test file to test objects
-// Normally, only member functions of a class can access the private members of that class.
-// Global functions and other classes can’t access the private members of that class.
-// You can make an exception on that rule by declaring certain functions or classes as friend.
+// Until now, we created objects on the stack.
+// The stack is limited in size thus when creating many objects,
+//  the stack will overflow.
+// Also arrays created on the stack can only have a fixed size determined at compile time.
 //
-// For example the << operator for sending the point or line to the std::ostream class
-//  had to be a global function and thus can’t access the private members.
-// Move the << operator of Point and Line inside the class definition and declare it as friend.
-// The function remains a global function but it can now access the data members directly
-//  without the need for calling the getters or ToString() function.
+// To overcome these problems we have to create objects on the heap using new.
+// In the main program, create Point objects on the heap with new using the default constructor,
+//  constructor with coordinates and the copy constructor
+//  and assign it to pointer (Point*) variables.
+// Note that you can’t directly pass a pointer variable as argument to the copy constructor.
+// The pointer must first be dereferenced when passing it to the copy constructor.
+//  (Point* p2=new Point(*p1)).
+// Next call the Distance() function on the pointers and try to send the Point pointers to cout.
+// You need to dereference the pointer when passing it as argument.
+// Don’t forget to delete the object created with new.
+// Test the main program.
 //
-//  Normally, friends are to be avoided because it violates the data hiding principle.
-//  But in case of global operator functions it makes sense
-//      because you would actually want to make those global operator functions as member function
-//      but this was not possible.
+// Next, we will create an array of points.
+// First ask the user for the size of the array and read it using cin.
+// Then try to create an array on the stack using the entered size.
+// You will see a compiler error.
+// Arrays on the stack must have the size set at compile time.
+// Now create the array on the heap using new.
+// Can you use other constructors than the default constructor for the objects created in the array?
+// Don’t forget to delete the array after use.
+// Don’t forget the square brackets when deleting arrays!
+//
+// Some C++ compilers (e.g. GCC) support variable length arrays (VLA)
+//  where the size can be determined at run-time.
+// However this is a C99 feature that is not in the C++ standard.
+// Because VLA is not in the C++ standard you should avoid its usage since it will lead to less portable code.
 
 /*---------------------------------*/
-#include "Line.hpp"
-#include "Line.cpp"
 #include "Point.hpp"
 #include "Point.cpp"
 #include <iostream>
@@ -31,27 +46,10 @@ using namespace std;
 /*---------------------------------*/
 int main()
 {
-    // Declaring variables
-    double x1, y1, x2, y2;
-
-    // Prompt user input for points
-    cout << "Enter first Point(x1,y1) coordinate. For example 1 3 for (1,3): ";
-    cin >> x1 >> y1;
-    cout << "Enter second Point(x2,y2) coordinate. For example 1 3 for (1,3): ";
-    cin >> x2 >> y2;
-
-    // Initialize points
-    Point p1(x1,y1);
-    Point p2(x2,y2);
-
-    // Test overloaded friend function
-    cout << "Point 1 = " << p1 << endl;
-
-    //Initializing Line
-    Line l1(p1, p2);
-
-    // Test overloaded friend function
-    cout << "Line 1 = " << l1 << endl;
+    // Create Point objects on the heap with new using the default constructor
+    Point* pDefault = new Point();
+    // Create Point objects on the heap with new using constructor with coordinates
+    Point* pWCoord = new Point(1,1);
 
 
     return 0;
