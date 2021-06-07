@@ -101,5 +101,5 @@ double Point::DistanceOrigin() const
 // Calculate the distance between two points.
 double Point::Distance(Point p) const
 {
-    return sqrt(pow(m_x-p.GetX(),2) + pow(m_y-p.GetY(),2));
+    return sqrt(pow(m_x-p.m_x,2) + pow(m_y-p.m_y,2));
 }
