@@ -74,6 +74,7 @@ public:
     // Return a reference so the [] operator can be used for both reading and writing elements.
     // When the index is out of bounds, return the first element.
     Point& operator [] (int idx);
+    const Point& operator [] (int idx) const;
 
 };
 

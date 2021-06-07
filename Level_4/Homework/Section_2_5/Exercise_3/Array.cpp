@@ -153,3 +153,18 @@ Point& Array::operator [] (int idx)
     }
 }
 
+// Return a reference so the [] operator can be used for both reading and writing elements.
+// When the index is out of bounds, return the first element.
+// Necessary when you want to read-only
+const Point& Array::operator [] (int idx) const
+{
+    if (idx < m_size && !(idx <0))
+    {
+        return m_data[idx];
+    }
+    else
+    {
+        cout << "Index out-of-bound. Returning the first element." << endl;
+        return m_data[0];
+    }
+}
