@@ -114,7 +114,7 @@ double Point::Distance() const
 // Calculate the distance between two points.
 double Point::Distance(const Point& p) const
 {
-    return sqrt(pow(m_x-p.X(),2) + pow(m_y-p.Y(),2));
+    return sqrt(pow(m_x-p.m_x,2) + pow(m_y-p.m_y,2));
 }
 
 // Negate the coordinates.

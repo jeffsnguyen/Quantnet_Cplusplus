@@ -97,7 +97,7 @@ double Point::Distance() const
 // Calculate the distance between two points.
 double Point::Distance(const Point& p) const
 {
-    return sqrt(pow(m_x-p.X(),2) + pow(m_y-p.Y(),2));
+    return sqrt(pow(m_x-p.m_x,2) + pow(m_y-p.m_y,2));
 }
 
 // Negate the coordinates.
@@ -121,6 +121,7 @@ Point Point::operator + (const Point& p) const
 // Equally compare operator.
 bool Point::operator == (const Point& p) const
 {
+    // Self-assignment preclusion
     if (m_x == p.m_x and m_y == p.m_y)
     {
         return true;
