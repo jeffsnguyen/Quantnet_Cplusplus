@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.o: Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.o
 
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.o
 
 # target to build an object file
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.o
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.o
 
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.i: Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.i
 
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.i
 
 # target to preprocess a source file
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.i
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.i
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.i
 
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s: Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.s: Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.s
 
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.s
 
 # target to generate assembly for a file
-Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
-.PHONY : Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.s
+Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.s
+.PHONY : Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.o"
-	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.i"
-	@echo "... Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.s"
+	@echo "... Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.o"
+	@echo "... Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.i"
+	@echo "... Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.s"
 .PHONY : help
 
 

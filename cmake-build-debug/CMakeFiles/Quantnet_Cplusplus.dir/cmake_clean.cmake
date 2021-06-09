@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Quantnet_Cplusplus.dir/Level_4/Homework/Section_2_6/Exercise_1/test_Namespaces.cpp.o"
+  "CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_4/Exercise_1/test_ColonSyntax.cpp.o"
   "Quantnet_Cplusplus"
   "Quantnet_Cplusplus.pdb"
 )
