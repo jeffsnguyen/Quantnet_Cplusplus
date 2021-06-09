@@ -12,15 +12,15 @@
 //  •Add a source- and header file for a Shape class.
 //  •Add a data member for an id number of type int.
 //  •Add a default constructor that initializes the id using a random number.
-//      You can usethe rand() function from the “stdlib.h” header file.
+//      You can use the rand() function from the “stdlib.h” header file.
 //  •Add a copy constructor that copies the id member.
 //  •Add an assignment operator that copies the id member.
 //  •Add a ToString() function that returns the id as string e.g. “ID: 123”.
 //  •Add an ID() function the retrieve the id of the shape.
 // Next the Point and Line classes (and the Circle class if applicable) must derive from Shape.
-//  •Add the Shape class in the inheritance list of the Point, Line and optionallythe Circle class.
+//  •Add the Shape class in the inheritance list of the Point, Line and optionally the Circle class.
 //  •The constructors of the Point, Line and optionally the Circle class
-//      should call theappropriate constructor in the Shapebase class.
+//      should call the appropriate constructor in the Shape base class.
 //  •The assignment operator should call the assignment operator of the Shape baseclass.
 //      Otherwise the shape data will not be copied.
 //  •Finally add code to the main program to test inheritance:
@@ -51,8 +51,7 @@
 #include "Shape.hpp"
 #include <iostream>
 #include <sstream>
-#include <cmath>
-#include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -97,7 +96,7 @@ void Shape::ID(int newID)
 string Shape::ToString() const
 {
     // Declare stringstream objects
-    stringstream idSTR
+    stringstream idSTR;
 
     // Insert inputs to stream
     idSTR << m_id;

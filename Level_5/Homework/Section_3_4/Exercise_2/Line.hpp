@@ -53,11 +53,13 @@
 
 #include <iostream>
 #include <Point.hpp>
+#include <Shape.hpp>
 
 using namespace std;
 
 /*---------------------------------*/
-class Line {
+class Line : public Shape
+{
 private:
     Point P1;  // point 1
     Point P2;  // point 2

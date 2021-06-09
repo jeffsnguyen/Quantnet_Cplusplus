@@ -57,22 +57,19 @@ using namespace std;
 
 /*---------------------------------*/
 // Initializing (x,y) = (0,0)
-Line::Line() : P1(0, 0), P2(0, 0)
-//Line::Line()
+Line::Line() : Shape(), P1(0, 0), P2(0, 0)
 {
-    //P1 = Point(0,0);
-    //P2 = Point(0,0);
     cout << "Default line created" << endl;
 }
 
 // Initializing Line(p1,p2) = Line(Point(newX1, newY1), Point(newX2, newY2))
-Line::Line(Point &newP1, Point &newP2) : P1(newP1), P2(newP2)
+Line::Line(Point& newP1, Point& newP2) : Shape(), P1(newP1), P2(newP2)
 {
     cout << "Line created." << endl;
 }
 
 // Copy Constructor: Initializing Line(line) = Line(point1,point2)
-Line::Line(const Line &line) : P1(line.P1), P2(line.P2)
+Line::Line(const Line& line) : Shape(), P1(line.P1), P2(line.P2)
 {
     cout << "Line Copy constructor called." << endl;
 }
@@ -90,7 +87,7 @@ Point Line::point1() const
 }
 
 // Set new value for P1
-void Line::point1(const Point &newP1)
+void Line::point1(const Point& newP1)
 {
     P1 = newP1;
 }
@@ -102,7 +99,7 @@ Point Line::point2() const
 }
 
 // Set new value for P2
-void Line::point2(const Point &newP2)
+void Line::point2(const Point& newP2)
 {
     P2 = newP2;
 }
@@ -120,7 +117,7 @@ double Line::Length() const
 }
 
 // Assignment operator.
-Line &Line::operator=(const Line &source)
+Line &Line::operator=(const Line& source)
 {
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
@@ -130,15 +127,15 @@ Line &Line::operator=(const Line &source)
     }
     else
     {
-        P1 = source.P1;
-        P2 = source.P2;
+        // Call base class assignment
+        Shape::operator= (source);
 
         return *this;
     }
 }
 
 // Send to ostream.
-ostream &operator<<(ostream &os, const Line &l)
+ostream &operator<<(ostream& os, const Line& l)
 {
     os << "Line(" << l.P1 << "," << l.P2 << ")";  // // Access private members
 

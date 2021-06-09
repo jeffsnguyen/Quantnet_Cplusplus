@@ -51,11 +51,13 @@
 #ifndef Point_HPP
 #define Point_HPP
 
+#include "Shape.hpp"
 #include <iostream>
 using namespace std;
 
 /*---------------------------------*/
-class Point {
+class Point: public Shape
+{
 private:
     double m_x;  // X coordinate
     double m_y;  // Y coordinate

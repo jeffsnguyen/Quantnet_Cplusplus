@@ -57,19 +57,19 @@ using namespace std;
 
 /*---------------------------------*/
 // Initializing (x,y) = (0,0)
-Point::Point() : m_x(0), m_y(0)
+Point::Point() : Shape(), m_x(0), m_y(0)
 {
     cout << "Default point created" << endl;
 }
 
 // Initializing (x,y) = (newX,newY)
-Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
+Point::Point(double newX, double newY) : Shape(), m_x(newX), m_y(newY)
 {
     cout << "Point created." << endl;
 }
 
 // Copy Constructor: Initializing (x,y) = (newX,newY)
-Point::Point(const Point &point) : m_x(point.m_x), m_y(point.m_y)
+Point::Point(const Point &point) : Shape(), m_x(point.m_x), m_y(point.m_y)
 {
     cout << "Copy constructor called." << endl;
 }
@@ -168,8 +168,8 @@ Point &Point::operator=(const Point &source) {
     }
     else
     {
-        m_x = source.m_x;
-        m_y = source.m_y;
+        // Call base class assignment
+        Shape::operator= (source);
 
         return *this;  // Assign the result to itself
     }

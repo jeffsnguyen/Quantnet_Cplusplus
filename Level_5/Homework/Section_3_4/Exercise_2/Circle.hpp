@@ -55,12 +55,13 @@
 
 #include <iostream>
 #include <Point.hpp>
+#include <Shape.hpp>
 #include <cmath>
 
 using namespace std;
 
 /*---------------------------------*/
-class Circle
+class Circle : public Shape
 {
 private:
     Point C;  // point 1

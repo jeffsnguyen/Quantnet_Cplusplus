@@ -57,19 +57,19 @@ using namespace std;
 
 /*---------------------------------*/
 // Initializing Circle(C,r) = ((0,0),0)
-Circle::Circle(): C(0,0), r(0)
+Circle::Circle(): Shape(), C(0,0), r(0)
 {
     cout << "Default circle created" << endl;
 }
 
 // Initializing Circle(C,r) = Circle(C(newC), r(new_r))
-Circle::Circle(Point& newC, double new_r): C(newC), r(new_r)
+Circle::Circle(Point& newC, double new_r): Shape(), C(newC), r(new_r)
 {
     cout << "Circle created." << endl;
 }
 
 // Copy Constructor: Initializing Line(line) = Line(point1,point2)
-Circle::Circle(const Circle& circle): C(circle.C), r(circle.r)
+Circle::Circle(const Circle& circle): Shape(), C(circle.C), r(circle.r)
 {
     cout << "Circle Copy constructor called." << endl;
 }
@@ -145,8 +145,7 @@ Circle& Circle::operator = (const Circle& source)
     }
     else
     {
-        C = source.C;
-        r = source.r;
+        Shape::operator=(source);  // Call base class assignment
 
         return *this;  // Assign the result to itself
     }
