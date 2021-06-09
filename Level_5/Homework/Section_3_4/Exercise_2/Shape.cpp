@@ -48,118 +48,66 @@
 //      Answer the questions in the comments of the code above.
 
 /*---------------------------------*/
-#include "Point.hpp"
+#include "Shape.hpp"
 #include <iostream>
 #include <sstream>
 #include <cmath>
+#include <stdlib.h>
 
 using namespace std;
 
 /*---------------------------------*/
-// Initializing (x,y) = (0,0)
-Point::Point() : m_x(0), m_y(0)
+// Initializing Shape with random ID value
+Shape::Shape() : m_id(rand())
 {
-    cout << "Default point created" << endl;
+    cout << "Default shape created" << endl;
 }
 
-// Initializing (x,y) = (newX,newY)
-Point::Point(double newX, double newY) : m_x(newX), m_y(newY)
+// Initializing Shape with speicifc ID
+Shape::Shape(int newID) : m_id(newID)
 {
-    cout << "Point created." << endl;
+    cout << "Shape created." << endl;
 }
 
-// Copy Constructor: Initializing (x,y) = (newX,newY)
-Point::Point(const Point &point) : m_x(point.m_x), m_y(point.m_y)
+// Copy Constructor: Initializing (m_id) = shape.m_id
+Shape::Shape(const Shape &shape) : m_id(shape.m_id)
 {
-    cout << "Copy constructor called." << endl;
+    cout << "Shape Copy constructor called." << endl;
 }
 
 // Destructor
-Point::~Point()
+Shape::~Shape()
 {
-    cout << "Point destroyed.\n";
+    cout << "Shape destroyed.\n";
 }
 
-// Get x value
-double Point::X() const
+// Get id value
+int Shape::ID() const
 {
-    return m_x;
+    return m_id;
 }
 
-// Set new value for x
-void Point::X(double newX)
+// Set new value for id
+void Shape::ID(int newID)
 {
-    m_x = newX;
+    m_id = newID;
 }
 
-// Get y value
-double Point::Y() const
-{
-    return m_y;
-}
-
-// Set new value for y
-void Point::Y(double newY)
-{
-    m_y = newY;
-}
-
-// Return string description of the point
-string Point::ToString() const
+// Return string description of the shape
+string Shape::ToString() const
 {
     // Declare stringstream objects
-    stringstream xSTR, ySTR;
+    stringstream idSTR
 
     // Insert inputs to stream
-    xSTR << m_x;
-    ySTR << m_y;
+    idSTR << m_id;
 
-    return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
-}
-
-// Calculate the distance to the origin (0, 0).
-double Point::Distance() const
-{
-    return sqrt(pow(m_x, 2) + pow(m_y, 2));
-}
-
-// Calculate the distance between two points.
-double Point::Distance(const Point &p) const
-{
-    return sqrt(pow(m_x - p.m_x, 2) + pow(m_y - p.m_y, 2));
-}
-
-// Negate the coordinates.
-Point Point::operator-() const
-{
-    return Point(-m_x, -m_y);
-}
-
-// Scale the coordinates.
-Point Point::operator*(double factor) const
-{
-    return Point(factor * m_x, factor * m_y);
-}
-
-// Add coordinates.
-Point Point::operator+(const Point &p) const {
-    return Point(m_x + p.m_x, m_y + p.m_y);
-}
-
-// Equally compare operator.
-bool Point::operator==(const Point &p) const
-{
-    if (m_x == p.m_x and m_y == p.m_y)
-    {
-        return true;
-    } else
-    {
-        return false;
-    }
+    return "Shape(" + idSTR.str() + ")";
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Shape &Shape::operator=(const Shape &source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
@@ -168,26 +116,16 @@ Point &Point::operator=(const Point &source) {
     }
     else
     {
-        m_x = source.m_x;
-        m_y = source.m_y;
+        m_id = source.m_id;
 
         return *this;  // Assign the result to itself
     }
 }
 
-// Scale the coordinates & assign.
-Point &Point::operator*=(double factor)
-{
-    m_x = factor * m_x;
-    m_y = factor * m_y;
-
-    return *this;  // Assign the result to itself
-}
-
 // Send to ostream.
-ostream &operator<<(ostream &os, const Point &p)
+ostream &operator<<(ostream &os, const Shape &s)
 {
-    os << "Point(" << p.m_x << "," << p.m_y << ")";  // Access private members
+    os << "Shape(" << s.m_id << ")";  // Access private members
 
     return os;
 }

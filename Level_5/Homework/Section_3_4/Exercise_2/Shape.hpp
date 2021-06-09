@@ -48,46 +48,37 @@
 //      Answer the questions in the comments of the code above.
 
 /*---------------------------------*/
-#ifndef Point_HPP
-#define Point_HPP
+#ifndef Shape_HPP
+#define Shape_HPP
 
 #include <iostream>
+
 using namespace std;
 
 /*---------------------------------*/
-class Point {
+class Shape
+{
 private:
-    double m_x;  // X coordinate
-    double m_y;  // Y coordinate
+    int m_id;  // ID of objects in the Shape() class
 
 public:
     // Constructors
-    Point();  // Default constructor
-    Point(double newX, double newY);  // Initialize with x and y value
-    Point(const Point &point);  // Copy constructor
+    Shape();  // Default constructor
+    Shape(int newID);  // Initialize with specific value
+    Shape(const Shape &shape);  // Copy constructor
 
     // Destructor
-    ~Point();
+    virtual ~Shape();
 
     // Accessing functions
-    double X() const;  // The x-coordinate
-    void X(double newX);
+    int ID() const;  // Retrieving the ID
+    void ID(int newID);  // Setting the ID
 
-    double Y() const;  // The y-coordinate
-    void Y(double newY);
-
-    string ToString() const;  // Return string description of the point
-    double Distance() const; // Calculate the distance to the origin (0, 0).
-    double Distance(const Point &p) const; // Calculate the distance between two points.
+    string ToString() const;  // Return string description of the shape
 
     // Overloading operators
-    Point operator-() const; // Negate the coordinates.
-    Point operator*(double factor) const; // Scale the coordinates.
-    Point operator+(const Point &p) const; // Add coordinates.
-    bool operator==(const Point &p) const; // Equally compare operator.
-    Point &operator=(const Point &source); // Assignment operator.
-    Point &operator*=(double factor); // Scale the coordinates & assign.
-    friend ostream &operator<<(ostream &os, const Point &p); // Send to ostream.
+    Shape &operator=(const Shape &source); // Assignment operator.
+    friend ostream &operator<<(ostream &os, const Shape &s); // Send to ostream.
 };
 
-#endif // Point_HPP
+#endif // Shape_HPP
