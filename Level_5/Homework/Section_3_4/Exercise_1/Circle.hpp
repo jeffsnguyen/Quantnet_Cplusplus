@@ -1,22 +1,18 @@
 // Type: Homework
-// Level: 4
-// Section: 2.5 Namespaces
+// Level: 5
+// Section: 3.4 Simple Inheritance
 // Exercise: 1
 // Description: Definition file contains class Circle()
-// To avoid name conflicts, programmers can place their classes in a namespace.
-// For example the standard library is placed in a namespace called std.
-// You should put your classes in your own namespace.
-// Thus place the CAD classes (Shape,Point, Line, etc) in the namespace:
-//  YourName::CAD
-// Place the container classes (Array) in the namespace:
-//  YourName::Containers Now access the classes in your own namespace using:
-//  • Full class name including namespace for the Point used in the Array class.
-//      Note that you can use only the CAD part of the namespace
-//      without the YourName part because the Point is also in the YourName namespace.
-//  • In the main program, the full namespace for Point class.
-//  • In the main program, using declaration for using a single class (Line).
-//  • In the main program, using declaration for a complete namespace (Containers).
-//  • In the main program, using the Circle class by creating a shorter alias for the YourName::CAD namespace.
+// The colon syntax can improve the performance of constructors.
+// To test this, make sure that you print some text in the point’s constructors, destructor
+//  and also the assignment operator.
+// Now, execute the following code in the test program
+//  and count the number of point constructor, destructor and assignment calls:
+//      Line l;
+// Now, change the constructors in the Line class to use the colon syntax
+//  to set the start- and end-point data members and run the test program again.
+// Is the number of point constructor, destructor and assignment calls less than before?
+// Apply the colon syntax also for the Point class constructors and if applicable also for the Circle class.
 
 /*---------------------------------*/
 #ifndef Circle_HPP
@@ -31,41 +27,35 @@
 using namespace std;
 
 /*---------------------------------*/
-namespace Jeff
+class Circle
 {
-    namespace CAD
-    {
-        class Circle
-        {
-        private:
-            Point C;  // point 1
-            double r;  // point 2
+private:
+    Point C;  // point 1
+    double r;  // point 2
 
-        public:
-            // Constructors
-            Circle();  // Default constructor
-            Circle(Point& newC, double new_r);  // Initialize with center point and radius
-            Circle(const Circle& circle);  // Copy constructor
+public:
+    // Constructors
+    Circle();  // Default constructor
+    Circle(Point& newC, double new_r);  // Initialize with center point and radius
+    Circle(const Circle& circle);  // Copy constructor
 
-            // Destructor
-            ~Circle();
+    // Destructor
+    ~Circle();
 
-            // Accessing functions
-            Point centerP() const;  // The center point of the circle
-            void centerP(const Point& newC);
-            double rad() const;  // The radius
-            void rad(const double new_r);
-            string ToString() const;  // Return string description of the circle
-            double Diameter() const;  // Calculate the diameter of the circle
-            double Area() const;  // Calculate the area of the circle
-            double Circumference() const;  // Calculate the circumference of the circle
+    // Accessing functions
+    Point centerP() const;  // The center point of the circle
+    void centerP(const Point& newC);
+    double rad() const;  // The radius
+    void rad(const double new_r);
+    string ToString() const;  // Return string description of the circle
+    double Diameter() const;  // Calculate the diameter of the circle
+    double Area() const;  // Calculate the area of the circle
+    double Circumference() const;  // Calculate the circumference of the circle
 
-            // Overloading operator
-            Circle& operator = (const Circle& source); // Assignment operator.
-        };
+    // Overloading operator
+    Circle& operator = (const Circle& source); // Assignment operator.
+};
 
-        ostream& operator << (ostream& os, const Circle& c); // Send to ostream.
-    }
-}
+ostream& operator << (ostream& os, const Circle& c); // Send to ostream.
 
 #endif // Circle_HPP
