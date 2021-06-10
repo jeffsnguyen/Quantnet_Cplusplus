@@ -45,24 +45,21 @@ using namespace std;
 /*---------------------------------*/
 int main()
 {
-    // Test to see if default Shape's ToString() is called
-    //Shape* sDefault = new Shape();  // Create default shape.
-    //cout << (*sDefault).ToString() << endl;
 
     // Test Point::ToString()
-    //Shape* sPoint = new Point(1,1);  // Create pointer to a shape variable.
-    //cout << (*sPoint).ToString() << endl;
+    Shape* sPoint = new Point(1,1);  // Create pointer to a shape variable.
+    (*sPoint).Draw();
 
     // Test Line::ToString()
-    //Point p1 = Point(1,1);
-    //Point p2 = Point(2,2);
-    //Shape* sLine = new Line(p1, p2);  // Create pointer to a shape variable.
-    //cout << (*sLine).ToString() << endl;
+    Point p1 = Point(1,1);
+    Point p2 = Point(2,2);
+    Shape* sLine = new Line(p1, p2);  // Create pointer to a shape variable.
+    (*sLine).Draw();
 
     // Test Circle::ToString()
-    //double d = p1.Distance(p2);
-    //Shape* sCircle = new Circle(p1, d);
-    //cout << (*sCircle).ToString() << endl;
+    double d = p1.Distance(p2);
+    Shape* sCircle = new Circle(p1, d);
+    (*sCircle).Draw();
 
     // Remarks:
     // 1. There is no implementation for Shape::Draw()

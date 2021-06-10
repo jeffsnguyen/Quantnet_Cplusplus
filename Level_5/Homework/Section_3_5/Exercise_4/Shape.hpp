@@ -58,7 +58,7 @@ public:
     void ID(int newID);  // Setting the ID
 
     virtual string ToString() const;  // Return string description of the shape
-    virtual void Draw() = 0;  // Abstract function
+    virtual void Draw() const = 0;  // Abstract function
 
     // Overloading operators
     Shape &operator=(const Shape &source); // Assignment operator.
