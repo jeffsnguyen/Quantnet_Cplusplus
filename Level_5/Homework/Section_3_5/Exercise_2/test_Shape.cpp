@@ -47,8 +47,6 @@ int main()
     Shape* sCircle = new Circle(p1, d);
     cout << (*sCircle).ToString() << endl;
 
-    // Conclusion: ToString() of Point still called.
-
     return 0;
 }
 
