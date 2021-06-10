@@ -1,7 +1,7 @@
 // Type: Homework
 // Level: 5
 // Section: 3.5 Polymorphism
-// Exercise: 1
+// Exercise: 2
 // Description: Definition file contains class Line()
 // The ToString() function of the Shape class is overridden in the derived classes.
 // But for the derived class it is still possible to use the base class functionality.

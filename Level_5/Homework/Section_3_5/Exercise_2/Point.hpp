@@ -1,7 +1,7 @@
 // Type: Homework
 // Level: 5
 // Section: 3.5 Polymorphism
-// Exercise: 1
+// Exercise: 2
 // Description: Definition file contains class Point()
 // The ToString() functions of Point and Line override the ToString() from the Shape base class.
 // We saw that we could put a Point in a Shape* variable.
