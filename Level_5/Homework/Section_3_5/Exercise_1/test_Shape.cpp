@@ -37,13 +37,13 @@ int main()
 
     // Test to see if Point's ToString is called
     Shape* sPoint = new Point(1,1);  // Create pointer to a shape variable.
-    cout<< (*sPoint).ToString() << endl;
+    cout << (*sPoint).ToString() << endl;
 
     // Test to see if Line's ToString is called
     Point p1 = Point(1,1);
     Point p2 = Point(2,2);
     Shape* sLine = new Line(p1, p2);  // Create pointer to a shape variable.
-    cout<< (*sLine).ToString() << endl;
+    cout << (*sLine).ToString() << endl;
 
     // Conclusion: ToString() of Point still called.
 
