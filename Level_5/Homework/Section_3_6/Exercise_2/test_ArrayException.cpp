@@ -43,7 +43,6 @@ int main()
     Point p1 = Point(1,1);
 
     // Test SetElement & GetElement
-    // Error: libc++abi: terminating with uncaught exception of type int
     idx = -1;
     //idx = 3;
     try
@@ -65,7 +64,6 @@ int main()
     }
 
     // Test [] operator
-    // Error: libc++abi: terminating with uncaught exception of type int
     try
     {
         cout << (*arr)[3] << endl;
