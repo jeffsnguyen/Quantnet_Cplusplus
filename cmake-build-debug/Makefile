@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.o: Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.o
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.o: Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.o
 
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.o
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.o
 
 # target to build an object file
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.o
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.o
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.o
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.o
 
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.i: Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.i
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.i: Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.i
 
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.i
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.i
 
 # target to preprocess a source file
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.i
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.i
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.i
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.i
 
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.s: Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.s
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.s: Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.s
 
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.s
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.s
 
 # target to generate assembly for a file
-Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.s
-.PHONY : Level_5/Homework/Section_3_6/Exercise_1/test_Array.cpp.s
+Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.s
+.PHONY : Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_5/Homework/Section_3_6/Exercise_1/test_Array.o"
-	@echo "... Level_5/Homework/Section_3_6/Exercise_1/test_Array.i"
-	@echo "... Level_5/Homework/Section_3_6/Exercise_1/test_Array.s"
+	@echo "... Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.o"
+	@echo "... Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.i"
+	@echo "... Level_5/Homework/Section_3_6/Exercise_2/test_ArrayException.s"
 .PHONY : help
 
 
