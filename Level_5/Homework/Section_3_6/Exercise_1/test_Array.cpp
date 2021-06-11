@@ -44,18 +44,32 @@ int main()
     {
         arr->SetElement(idx, p1);
     }
-    catch (int error)
+    catch (int err)
     {
-        cout << "Index out of bound" << endl;
+        if (err==-1)
+        {
+            cout << "Index out of bound" << endl;
+        }
+        else
+        {
+            cout << "Unhandled exception" << endl;
+        }
     }
 
     try
     {
         cout << "arr[" << idx << "] = " << arr->GetElement(idx) << endl;
     }
-    catch (int error)
+    catch (int err)
     {
-        cout << "Index out of bound" << endl;
+        if (err==-1)
+        {
+            cout << "Index out of bound" << endl;
+        }
+        else
+        {
+            cout << "Unhandled exception" << endl;
+        }
     }
 
     // Test [] operator
@@ -64,18 +78,32 @@ int main()
     {
         cout << (*arr)[3] << endl;
     }
-    catch (int error)
+    catch (int err)
     {
-        cout << "Index out of bound" << endl;
+        if (err==-1)
+        {
+            cout << "Index out of bound" << endl;
+        }
+        else
+        {
+            cout << "Unhandled exception" << endl;
+        }
     }
 
     try
     {
         cout << (*arr)[-1] << endl;
     }
-    catch (int error)
+    catch (int err)
     {
-        cout << "Index out of bound" << endl;
+        if (err==-1)
+        {
+            cout << "Index out of bound" << endl;
+        }
+        else
+        {
+            cout << "Unhandled exception" << endl;
+        }
     }
 
     return 0;
