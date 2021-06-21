@@ -154,12 +154,19 @@ int main()
 
     /*---------------------------------*/
     // Create numeric array with Point objects
-    NumericArray<Point>* pointArr1 = new NumericArray<Point>(5);
-    (*pointArr1)[0] = Point(1,1);
-    (*pointArr1)[1] = Point(2,2);
-    (*pointArr1)[2] = Point(3,3);
-    (*pointArr1)[3] = Point(4,4);
-    (*pointArr1)[4] = Point(5,5);
+    NumericArray<Point> pointArr1(5);
+    pointArr1[0] = Point(1,1);
+    pointArr1[1] = Point(2,2);
+    pointArr1[2] = Point(3,3);
+    pointArr1[3] = Point(4,4);
+    pointArr1[4] = Point(5,5);
+
+    cout << "pointArr1 = {" << pointArr1[0] << ", "
+                            << pointArr1[1] << ", "
+                            << pointArr1[2] << ", "
+                            << pointArr1[3] << ", "
+                            << pointArr1[4] << "}"
+                            << endl;
 
     // Can create numeric array with Point objects but cannot apply Point specific functionalities.
 
