@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.o: Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.o
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.o: Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.o
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.o
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.o
 
 # target to build an object file
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.o
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.o
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.o
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.o
 
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.i: Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.i
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.i: Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.i
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.i
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.i
 
 # target to preprocess a source file
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.i
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.i
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.i
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.i
 
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.s: Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.s
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.s: Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.s
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.s
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.s
 
 # target to generate assembly for a file
-Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.s
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.cpp.s
+Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.s
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.o"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.i"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_2/test_NumericArray.s"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.o"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.i"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_3/test_PointArray.s"
 .PHONY : help
 
 

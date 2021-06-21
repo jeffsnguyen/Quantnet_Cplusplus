@@ -32,6 +32,8 @@
 //      #include "Array.cpp"
 //      #endif
 
+
+
 /*---------------------------------*/
 #include "Point.hpp"
 #include <iostream>
@@ -153,17 +155,21 @@ bool Point::operator==(const Point &p) const
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Point& Point::operator = (const Point& source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
     {
         return *this;
     }
-    else
+
     {
         // Call base class assignment
         Shape::operator= (source);
+
+        m_x = source.m_x;
+        m_y = source.m_y;
 
         return *this;  // Assign the result to itself
     }

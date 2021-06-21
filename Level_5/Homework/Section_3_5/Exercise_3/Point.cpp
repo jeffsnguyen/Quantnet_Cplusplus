@@ -18,6 +18,9 @@
 // In this case, the derived class destructor
 //  will only be called when the destructor is declared virtual in the base class.
 // Do this in the Shape class and run the code again. Are the proper destructors called now?
+
+
+
 /*---------------------------------*/
 #include "Point.hpp"
 #include <iostream>
@@ -102,6 +105,13 @@ double Point::Distance(const Point &p) const
     return sqrt(pow(m_x - p.m_x, 2) + pow(m_y - p.m_y, 2));
 }
 
+// Overidden function from Shape() simulating drawing by printing some text
+void Point::Draw() const
+{
+    cout << "Simulating point drawing." << endl;
+}
+
+
 // Negate the coordinates.
 Point Point::operator-() const
 {
@@ -132,17 +142,21 @@ bool Point::operator==(const Point &p) const
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Point& Point::operator = (const Point& source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
     {
         return *this;
     }
-    else
+
     {
         // Call base class assignment
         Shape::operator= (source);
+
+        m_x = source.m_x;
+        m_y = source.m_y;
 
         return *this;  // Assign the result to itself
     }

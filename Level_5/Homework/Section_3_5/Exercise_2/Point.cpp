@@ -3,14 +3,18 @@
 // Section: 3.5 Polymorphism
 // Exercise: 2
 // Description: Source file contains functionalities for class Point()
-// The ToString() function of the Shape class is overridden in the derived classes.
-// But for the derived class it is still possible to use the base class functionality.
-// In the ToString() function of Point and Line we also want to incorporate the ID from theShape base class.
-//  •In the ToString() method of Point,
-//      call the ToString() method of the Shape base class:std::string s=Shape::ToString();
-//  •Append the shape description string to the point description string before returning.
-//  •Do this also for the ToString() function in the Line class (and Circle class).
-//  •Test the application again. Is now the ID printed when printing a point or line?
+// The ToString() functions of Point and Line override the ToString() from the Shape base class.
+// We saw that we could put a Point in a Shape* variable.
+// But when calling the ToString() method on the Shape* variable,
+//  the function in Shape was called instead the one in Point.
+//
+//  To make the compiler generate the required code to find out
+//      what type of object the Shape*variable is actually pointing to so it can call the right version;
+//      we need to declare the function as virtual.
+//  Thus declare the ToString() function in the Shape class as virtual
+//      and test the program again.
+//  Is the ToString() function of Point called when you use a Shape* that contains a Point now?
+
 /*---------------------------------*/
 #include "Point.hpp"
 #include <iostream>
@@ -95,6 +99,13 @@ double Point::Distance(const Point &p) const
     return sqrt(pow(m_x - p.m_x, 2) + pow(m_y - p.m_y, 2));
 }
 
+// Overidden function from Shape() simulating drawing by printing some text
+void Point::Draw() const
+{
+    cout << "Simulating point drawing." << endl;
+}
+
+
 // Negate the coordinates.
 Point Point::operator-() const
 {
@@ -125,17 +136,21 @@ bool Point::operator==(const Point &p) const
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Point& Point::operator = (const Point& source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
     {
         return *this;
     }
-    else
+
     {
         // Call base class assignment
         Shape::operator= (source);
+
+        m_x = source.m_x;
+        m_y = source.m_y;
 
         return *this;  // Assign the result to itself
     }

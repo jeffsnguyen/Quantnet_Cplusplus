@@ -47,6 +47,7 @@
 //      //the base class assignment in point?
 //      Answer the questions in the comments of the code above.
 
+
 /*---------------------------------*/
 #include "Point.hpp"
 #include <iostream>
@@ -114,7 +115,9 @@ string Point::ToString() const
     xSTR << m_x;
     ySTR << m_y;
 
-    return "Point(" + xSTR.str() + "," + ySTR.str() + ")";
+    string s=Shape::ToString();
+
+    return s + ": " + "Point(" + xSTR.str() + "," + ySTR.str() + ")";
 }
 
 // Calculate the distance to the origin (0, 0).
@@ -128,6 +131,13 @@ double Point::Distance(const Point &p) const
 {
     return sqrt(pow(m_x - p.m_x, 2) + pow(m_y - p.m_y, 2));
 }
+
+// Overidden function from Shape() simulating drawing by printing some text
+void Point::Draw() const
+{
+    cout << "Simulating point drawing." << endl;
+}
+
 
 // Negate the coordinates.
 Point Point::operator-() const
@@ -159,17 +169,21 @@ bool Point::operator==(const Point &p) const
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Point& Point::operator = (const Point& source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
     {
         return *this;
     }
-    else
+
     {
         // Call base class assignment
         Shape::operator= (source);
+
+        m_x = source.m_x;
+        m_y = source.m_y;
 
         return *this;  // Assign the result to itself
     }

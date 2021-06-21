@@ -17,7 +17,6 @@
 //      For example add a Length()function that returns the total length between the points in the array.
 //  •Change the main program to test the point array.
 
-
 /*---------------------------------*/
 #include "Point.hpp"
 #include <iostream>
@@ -40,7 +39,7 @@ Point::Point(double newX, double newY) : Shape(), m_x(newX), m_y(newY)
 }
 
 // Copy Constructor: Initializing (x,y) = (newX,newY)
-Point::Point(const Point &point) : Shape(point), m_x(point.m_x), m_y(point.m_y)
+Point::Point(const Point &point) : Shape(), m_x(point.m_x), m_y(point.m_y)
 {
     cout << "Copy constructor called." << endl;
 }
@@ -139,17 +138,21 @@ bool Point::operator==(const Point &p) const
 }
 
 // Assignment operator.
-Point &Point::operator=(const Point &source) {
+Point& Point::operator = (const Point& source)
+{
     cout << "Assignment operator" << endl;
     // Self-assignment preclusion
     if (this == &source)
     {
         return *this;
     }
-    else
+
     {
         // Call base class assignment
         Shape::operator= (source);
+
+        m_x = source.m_x;
+        m_y = source.m_y;
 
         return *this;  // Assign the result to itself
     }

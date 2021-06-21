@@ -2,6 +2,7 @@
 // Level: 5
 // Section: 3.6 Exception Handling
 // Exercise: 1
+// Description: Contains description for Point() class
 // In the array class we created previously, the bounds checking was very basic.
 // There was no error generated, but setting an element was ignored or the first element was returned.
 // Obviously you want to know if there was an out of bounds error.
