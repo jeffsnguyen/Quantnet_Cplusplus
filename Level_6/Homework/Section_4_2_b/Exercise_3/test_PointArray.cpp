@@ -54,6 +54,10 @@ int main()
     pointArr1[3] = p3;
     pointArr1[4] = p4;
 
+    cout << "Type is " << typeid(pointArr1[4]).name() << endl;
+    cout << "Type is " << typeid(p4).name() << endl;
+    cout << pointArr1.GetElement(4) << endl;
+
     /*---------------------------------*/
     // Test Access functions
     cout << "pointArr1 = {" << pointArr1[0] << ", "

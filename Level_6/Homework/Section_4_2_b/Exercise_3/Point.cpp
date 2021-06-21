@@ -40,7 +40,7 @@ Point::Point(double newX, double newY) : Shape(), m_x(newX), m_y(newY)
 }
 
 // Copy Constructor: Initializing (x,y) = (newX,newY)
-Point::Point(const Point &point) : Shape(), m_x(point.m_x), m_y(point.m_y)
+Point::Point(const Point &point) : Shape(point), m_x(point.m_x), m_y(point.m_y)
 {
     cout << "Copy constructor called." << endl;
 }
