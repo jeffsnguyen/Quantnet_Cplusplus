@@ -161,6 +161,8 @@ int main()
     (*pointArr1)[3] = Point(4,4);
     (*pointArr1)[4] = Point(5,5);
 
+    // Can create numeric array with Point objects but cannot apply Point specific functionalities.
+
     return 0;
 }
 
