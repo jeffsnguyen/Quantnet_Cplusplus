@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 OutOfBoundsException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/OutOfBoundsException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/OutOfBoundsException.hpp
 iostream
 -
 sstream
@@ -20,17 +20,17 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/ArrayException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/ArrayException.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Circle.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Circle.cpp
 Circle.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Circle.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Circle.hpp
 iostream
 -
 sstream
@@ -38,19 +38,19 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Circle.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Circle.hpp
 iostream
 -
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 Shape.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Line.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Line.cpp
 Line.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Line.hpp
 iostream
 -
 sstream
@@ -58,21 +58,21 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Line.hpp
 iostream
 -
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 Shape.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/NumericArray.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/NumericArray.cpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 NumericArray.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/NumericArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/NumericArray.hpp
 OutOfBoundsException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/OutOfBoundsException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/OutOfBoundsException.hpp
 iostream
 -
 sstream
@@ -80,21 +80,21 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/NumericArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/NumericArray.hpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/OutOfBoundsException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/OutOfBoundsException.hpp
 iostream
 -
 ArrayException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/ArrayException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/ArrayException.hpp
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 iostream
 -
 sstream
@@ -102,19 +102,19 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 Shape.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/PointArray.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/PointArray.cpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 PointArray.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/PointArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/PointArray.hpp
 OutOfBoundsException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/OutOfBoundsException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/OutOfBoundsException.hpp
 iostream
 -
 sstream
@@ -122,17 +122,17 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/PointArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/PointArray.hpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.cpp
 Shape.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 iostream
 -
 sstream
@@ -140,21 +140,21 @@ sstream
 cstdlib
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Stack.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Stack.cpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 Stack.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Stack.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Stack.hpp
 ArrayException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/ArrayException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/ArrayException.hpp
 StackFullException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackFullException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackFullException.hpp
 StackEmptyException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackEmptyException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackEmptyException.hpp
 iostream
 -
 sstream
@@ -162,69 +162,69 @@ sstream
 cmath
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Stack.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Stack.hpp
 iostream
 -
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackEmptyException.hpp
-iostream
--
-StackException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackException.hpp
-
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackException.hpp
-iostream
--
-
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackFullException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackEmptyException.hpp
 iostream
 -
 StackException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackException.hpp
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackException.hpp
+iostream
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackFullException.hpp
+iostream
+-
+StackException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackException.hpp
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp
 Point.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.hpp
 Point.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Point.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Point.cpp
 Line.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Line.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Line.hpp
 Line.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Line.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Line.cpp
 Circle.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Circle.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Circle.hpp
 Circle.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Circle.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Circle.cpp
 Array.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.hpp
 Array.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Array.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Array.cpp
 Shape.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.hpp
 Shape.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Shape.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Shape.cpp
 ArrayException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/ArrayException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/ArrayException.hpp
 OutOfBoundsException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/OutOfBoundsException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/OutOfBoundsException.hpp
 NumericArray.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/NumericArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/NumericArray.hpp
 NumericArray.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/NumericArray.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/NumericArray.cpp
 PointArray.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/PointArray.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/PointArray.hpp
 PointArray.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/PointArray.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/PointArray.cpp
 Stack.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Stack.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Stack.hpp
 Stack.cpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/Stack.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/Stack.cpp
 StackException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackException.hpp
 StackFullException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackFullException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackFullException.hpp
 StackEmptyException.hpp
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/StackEmptyException.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/StackEmptyException.hpp
 iostream
 -
 

@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.o: Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.o: Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.o
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.o
 
 # target to build an object file
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o
 
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.i: Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.i: Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.i
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.i
 
 # target to preprocess a source file
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i
 
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.s: Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.s: Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s
 
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.s
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.s
 
 # target to generate assembly for a file
-Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s
-.PHONY : Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s
+Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s
+.PHONY : Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.o"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.i"
-	@echo "... Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.s"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.o"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.i"
+	@echo "... Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.s"
 .PHONY : help
 
 

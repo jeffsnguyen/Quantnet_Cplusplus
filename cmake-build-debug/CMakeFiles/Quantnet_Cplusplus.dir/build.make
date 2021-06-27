@@ -76,27 +76,27 @@ include CMakeFiles/Quantnet_Cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Quantnet_Cplusplus.dir/flags.make
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
-CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o: ../Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp"
+CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o: CMakeFiles/Quantnet_Cplusplus.dir/flags.make
+CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o: ../Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o -c "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp"
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp" > CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.i
+CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp" > CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.i
 
-CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.s
+CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp" -o CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.s
 
 # Object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_OBJECTS = \
-"CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o"
+"CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o"
 
 # External object files for target Quantnet_Cplusplus
 Quantnet_Cplusplus_EXTERNAL_OBJECTS =
 
-Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_5/test_StackException.cpp.o
+Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/Level_6/Homework/Section_4_2_b/Exercise_6/test_Stack.cpp.o
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/build.make
 Quantnet_Cplusplus: CMakeFiles/Quantnet_Cplusplus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Quantnet_Cplusplus"
