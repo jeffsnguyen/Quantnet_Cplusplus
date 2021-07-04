@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_1/test_STLcontainers.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/Sum.cpp
+Sum.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/Sum.hpp
+iostream
+-
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/Sum.hpp
 iostream
 -
 list
@@ -15,4 +21,12 @@ vector
 -
 map
 -
+
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/test_STLiterators.cpp
+iostream
+-
+Sum.hpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/Sum.hpp
+Sum.cpp
+/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/Level_7/Homework/Exercise_2/Sum.cpp
 
