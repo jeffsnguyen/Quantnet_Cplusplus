@@ -3,7 +3,7 @@ project(Quantnet_Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_7/Homework/Exercise_2)
+include_directories(Level_7/Homework/Exercise_3)
 
 add_executable(Quantnet_Cplusplus
-        Level_7/Homework/Exercise_2/test_STLiterators.cpp)
+        Level_7/Homework/Exercise_3/test_STLalgo.cpp)
