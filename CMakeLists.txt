@@ -3,10 +3,10 @@ project(Quantnet_Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_8/Homework/Exercise_1)
+include_directories(Level_8/Homework/Exercise_2)
 
 add_executable(Quantnet_Cplusplus
-        Level_8/Homework/Exercise_1/test_smartPointers.cpp)
+        Level_8/Homework/Exercise_2/test_tuple.cpp)
 
 message(STATUS "start running cmake...")
 

@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_8/Homework/Exercise_1/test_smartPointers.o: Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
+Level_8/Homework/Exercise_2/test_tuple.o: Level_8/Homework/Exercise_2/test_tuple.cpp.o
 
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.o
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.o
 
 # target to build an object file
-Level_8/Homework/Exercise_1/test_smartPointers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
+Level_8/Homework/Exercise_2/test_tuple.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_2/test_tuple.cpp.o
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.cpp.o
 
-Level_8/Homework/Exercise_1/test_smartPointers.i: Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
+Level_8/Homework/Exercise_2/test_tuple.i: Level_8/Homework/Exercise_2/test_tuple.cpp.i
 
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.i
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.i
 
 # target to preprocess a source file
-Level_8/Homework/Exercise_1/test_smartPointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
+Level_8/Homework/Exercise_2/test_tuple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_2/test_tuple.cpp.i
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.cpp.i
 
-Level_8/Homework/Exercise_1/test_smartPointers.s: Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
+Level_8/Homework/Exercise_2/test_tuple.s: Level_8/Homework/Exercise_2/test_tuple.cpp.s
 
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.s
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.s
 
 # target to generate assembly for a file
-Level_8/Homework/Exercise_1/test_smartPointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
-.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
+Level_8/Homework/Exercise_2/test_tuple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_2/test_tuple.cpp.s
+.PHONY : Level_8/Homework/Exercise_2/test_tuple.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.o"
-	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.i"
-	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.s"
+	@echo "... Level_8/Homework/Exercise_2/test_tuple.o"
+	@echo "... Level_8/Homework/Exercise_2/test_tuple.i"
+	@echo "... Level_8/Homework/Exercise_2/test_tuple.s"
 .PHONY : help
 
 
