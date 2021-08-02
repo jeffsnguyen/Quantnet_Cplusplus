@@ -2,7 +2,7 @@
 // Level: 8
 // Section: Smart Pointers
 // Exercise: 1
-// Description: Test features of STL containers
+// Description: Test features of Boost library's shared pointer
 // When we want to store different kind of shapes in the Array<T> class we created earlier,
 //  we need to store Shape* in the array.
 //  But when we are finished, we need to delete all shapes in the array explicitly which is easy to forget.
