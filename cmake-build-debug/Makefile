@@ -142,32 +142,32 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_7/Homework/Exercise_3/test_STLalgo.o: Level_7/Homework/Exercise_3/test_STLalgo.cpp.o
+Level_8/Homework/Exercise_1/test_smartPointers.o: Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
 
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.o
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.o
 
 # target to build an object file
-Level_7/Homework/Exercise_3/test_STLalgo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_7/Homework/Exercise_3/test_STLalgo.cpp.o
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.cpp.o
+Level_8/Homework/Exercise_1/test_smartPointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.o
 
-Level_7/Homework/Exercise_3/test_STLalgo.i: Level_7/Homework/Exercise_3/test_STLalgo.cpp.i
+Level_8/Homework/Exercise_1/test_smartPointers.i: Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
 
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.i
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.i
 
 # target to preprocess a source file
-Level_7/Homework/Exercise_3/test_STLalgo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_7/Homework/Exercise_3/test_STLalgo.cpp.i
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.cpp.i
+Level_8/Homework/Exercise_1/test_smartPointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.i
 
-Level_7/Homework/Exercise_3/test_STLalgo.s: Level_7/Homework/Exercise_3/test_STLalgo.cpp.s
+Level_8/Homework/Exercise_1/test_smartPointers.s: Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
 
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.s
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.s
 
 # target to generate assembly for a file
-Level_7/Homework/Exercise_3/test_STLalgo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_7/Homework/Exercise_3/test_STLalgo.cpp.s
-.PHONY : Level_7/Homework/Exercise_3/test_STLalgo.cpp.s
+Level_8/Homework/Exercise_1/test_smartPointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
+.PHONY : Level_8/Homework/Exercise_1/test_smartPointers.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_7/Homework/Exercise_3/test_STLalgo.o"
-	@echo "... Level_7/Homework/Exercise_3/test_STLalgo.i"
-	@echo "... Level_7/Homework/Exercise_3/test_STLalgo.s"
+	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.o"
+	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.i"
+	@echo "... Level_8/Homework/Exercise_1/test_smartPointers.s"
 .PHONY : help
 
 

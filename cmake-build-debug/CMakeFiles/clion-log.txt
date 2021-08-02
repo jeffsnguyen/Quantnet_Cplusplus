@@ -1,4 +1,8 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus"
+-- start running cmake...
+-- Boost_INCLUDE_DIRS: /usr/local/include
+-- Boost_LIBRARIES: Boost::system;Boost::filesystem
+-- Boost_VERSION: 1.76.0
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug
