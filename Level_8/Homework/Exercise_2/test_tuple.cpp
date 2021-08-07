@@ -2,7 +2,7 @@
 // Level: 8
 // Section: Tuple
 // Exercise: 2
-// Description: Test features of STL containers
+// Description: Test features of Boost's library tuple
 // Boost tuples can be used to store different kinds of data as one entity.
 // It can be used if we need to combine data without the need to create a separate class.
 // In this exercise, create a typedef for a Person tuple that contains a name, age and length.
