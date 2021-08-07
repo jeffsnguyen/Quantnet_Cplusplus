@@ -3,10 +3,10 @@ project(Quantnet_Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_8/Homework/Exercise_2)
+include_directories(Level_8/Homework/Exercise_3)
 
 add_executable(Quantnet_Cplusplus
-        Level_8/Homework/Exercise_2/test_tuple.cpp)
+        Level_8/Homework/Exercise_3/test_variants.cpp)
 
 message(STATUS "start running cmake...")
 
