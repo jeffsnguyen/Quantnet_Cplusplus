@@ -129,29 +129,29 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_8/Homework/Exercise_4/test_rng.o: Level_8/Homework/Exercise_4/test_rng.cpp.o
-.PHONY : Level_8/Homework/Exercise_4/test_rng.o
+Level_8/Homework/Exercise_5/TestNormalDistribution.o: Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.o
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.o
 
 # target to build an object file
-Level_8/Homework/Exercise_4/test_rng.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.o
-.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.o
+Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.o
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.o
 
-Level_8/Homework/Exercise_4/test_rng.i: Level_8/Homework/Exercise_4/test_rng.cpp.i
-.PHONY : Level_8/Homework/Exercise_4/test_rng.i
+Level_8/Homework/Exercise_5/TestNormalDistribution.i: Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.i
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.i
 
 # target to preprocess a source file
-Level_8/Homework/Exercise_4/test_rng.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.i
-.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.i
+Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.i
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.i
 
-Level_8/Homework/Exercise_4/test_rng.s: Level_8/Homework/Exercise_4/test_rng.cpp.s
-.PHONY : Level_8/Homework/Exercise_4/test_rng.s
+Level_8/Homework/Exercise_5/TestNormalDistribution.s: Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.s
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.s
 
 # target to generate assembly for a file
-Level_8/Homework/Exercise_4/test_rng.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.s
-.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.s
+Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.s
+.PHONY : Level_8/Homework/Exercise_5/TestNormalDistribution.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_8/Homework/Exercise_4/test_rng.o"
-	@echo "... Level_8/Homework/Exercise_4/test_rng.i"
-	@echo "... Level_8/Homework/Exercise_4/test_rng.s"
+	@echo "... Level_8/Homework/Exercise_5/TestNormalDistribution.o"
+	@echo "... Level_8/Homework/Exercise_5/TestNormalDistribution.i"
+	@echo "... Level_8/Homework/Exercise_5/TestNormalDistribution.s"
 .PHONY : help
 
 

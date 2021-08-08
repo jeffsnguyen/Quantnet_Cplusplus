@@ -3,14 +3,14 @@ project(Quantnet_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_8/Homework/Exercise_3)
+include_directories(Level_8/Homework/Exercise_5)
 
 add_executable(Quantnet_Cplusplus
-        Level_8/Homework/Exercise_4/test_rng.cpp)
+        Level_8/Homework/Exercise_5/TestNormalDistribution.cpp)
 
 message(STATUS "start running cmake...")
 
-find_package(Boost 1.76.0 COMPONENTS system filesystem random REQUIRED)
+find_package(Boost 1.76.0 COMPONENTS system filesystem REQUIRED)
 
 if(Boost_FOUND)
 
