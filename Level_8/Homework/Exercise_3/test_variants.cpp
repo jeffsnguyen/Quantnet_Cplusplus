@@ -1,6 +1,6 @@
 // Type: Homework
 // Level: 8
-// Section: Smart Pointers
+// Section: Variants
 // Exercise: 3
 // Description: Test features of Boost library's variants
 // In contrast to tuple, a boost::variant stores one value that can be of one of the specified types.
