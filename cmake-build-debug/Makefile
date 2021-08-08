@@ -129,29 +129,29 @@ Quantnet_Cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/build
 .PHONY : Quantnet_Cplusplus/fast
 
-Level_8/Homework/Exercise_3/test_variants.o: Level_8/Homework/Exercise_3/test_variants.cpp.o
-.PHONY : Level_8/Homework/Exercise_3/test_variants.o
+Level_8/Homework/Exercise_4/test_rng.o: Level_8/Homework/Exercise_4/test_rng.cpp.o
+.PHONY : Level_8/Homework/Exercise_4/test_rng.o
 
 # target to build an object file
-Level_8/Homework/Exercise_3/test_variants.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_3/test_variants.cpp.o
-.PHONY : Level_8/Homework/Exercise_3/test_variants.cpp.o
+Level_8/Homework/Exercise_4/test_rng.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.o
+.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.o
 
-Level_8/Homework/Exercise_3/test_variants.i: Level_8/Homework/Exercise_3/test_variants.cpp.i
-.PHONY : Level_8/Homework/Exercise_3/test_variants.i
+Level_8/Homework/Exercise_4/test_rng.i: Level_8/Homework/Exercise_4/test_rng.cpp.i
+.PHONY : Level_8/Homework/Exercise_4/test_rng.i
 
 # target to preprocess a source file
-Level_8/Homework/Exercise_3/test_variants.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_3/test_variants.cpp.i
-.PHONY : Level_8/Homework/Exercise_3/test_variants.cpp.i
+Level_8/Homework/Exercise_4/test_rng.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.i
+.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.i
 
-Level_8/Homework/Exercise_3/test_variants.s: Level_8/Homework/Exercise_3/test_variants.cpp.s
-.PHONY : Level_8/Homework/Exercise_3/test_variants.s
+Level_8/Homework/Exercise_4/test_rng.s: Level_8/Homework/Exercise_4/test_rng.cpp.s
+.PHONY : Level_8/Homework/Exercise_4/test_rng.s
 
 # target to generate assembly for a file
-Level_8/Homework/Exercise_3/test_variants.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_3/test_variants.cpp.s
-.PHONY : Level_8/Homework/Exercise_3/test_variants.cpp.s
+Level_8/Homework/Exercise_4/test_rng.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quantnet_Cplusplus.dir/build.make CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.s
+.PHONY : Level_8/Homework/Exercise_4/test_rng.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Quantnet_Cplusplus"
-	@echo "... Level_8/Homework/Exercise_3/test_variants.o"
-	@echo "... Level_8/Homework/Exercise_3/test_variants.i"
-	@echo "... Level_8/Homework/Exercise_3/test_variants.s"
+	@echo "... Level_8/Homework/Exercise_4/test_rng.o"
+	@echo "... Level_8/Homework/Exercise_4/test_rng.i"
+	@echo "... Level_8/Homework/Exercise_4/test_rng.s"
 .PHONY : help
 
 

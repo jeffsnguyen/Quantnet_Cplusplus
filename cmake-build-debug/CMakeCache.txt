@@ -25,10 +25,24 @@ Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_filesystem-mt.dy
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/local/include
 
+Boost_LOG_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_log-mt.dylib
+
+Boost_LOG_SETUP_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_log_setup-mt.dylib
+
+Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_program_options-mt.dylib
+
+Boost_RANDOM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_random-mt.dylib
+
+Boost_SERIALIZATION_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_serialization-mt.dylib
+
 //Boost system library (debug)
 Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=Boost_SYSTEM_LIBRARY_DEBUG-NOTFOUND
 
 Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_system-mt.dylib
+
+Boost_THREAD_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_thread-mt.dylib
+
+Boost_WAVE_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_wave-mt.dylib
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -176,7 +190,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Quantnet_Cplusplus
+CMAKE_PROJECT_NAME:STATIC=Quantnet_CPP
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
@@ -208,8 +222,8 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // but are added when building.
 CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
-//If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+//rpaths
+CMAKE_SKIP_RPATH:BOOL=1
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -244,10 +258,46 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
+Quantnet_CPP_BINARY_DIR:STATIC=/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug
+
+//Value Computed by CMake
+Quantnet_CPP_SOURCE_DIR:STATIC=/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus
+
+//Value Computed by CMake
 Quantnet_Cplusplus_BINARY_DIR:STATIC=/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus/cmake-build-debug
 
 //Value Computed by CMake
 Quantnet_Cplusplus_SOURCE_DIR:STATIC=/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus
+
+//The directory containing a CMake configuration file for boost_<the.
+boost_<the_DIR:PATH=boost_<the_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_Boost::variant.
+"boost_Boost::variant_DIR":PATH=boost_Boost::variant_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_asio.
+boost_asio_DIR:PATH=boost_asio_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/usr/local/lib/cmake/boost_atomic-1.76.0
+
+//The directory containing a CMake configuration file for boost_boost/variant.
+boost_boost/variant_DIR:PATH=boost_boost/variant_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_boost.
+boost_boost_DIR:PATH=boost_boost_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_chrono.
+boost_chrono_DIR:PATH=/usr/local/lib/cmake/boost_chrono-1.76.0
+
+//The directory containing a CMake configuration file for boost_components.
+boost_components_DIR:PATH=boost_components_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_filesyst.
+boost_filesyst_DIR:PATH=boost_filesyst_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_filesystemREQUIRED.
+boost_filesystemREQUIRED_DIR:PATH=boost_filesystemREQUIRED_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for boost_filesystem.
 boost_filesystem_DIR:PATH=/usr/local/lib/cmake/boost_filesystem-1.76.0
@@ -255,8 +305,71 @@ boost_filesystem_DIR:PATH=/usr/local/lib/cmake/boost_filesystem-1.76.0
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.76.0
 
+//The directory containing a CMake configuration file for boost_ilesystem.
+boost_ilesystem_DIR:PATH=boost_ilesystem_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_load>.
+boost_load>_DIR:PATH=boost_load>_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_log.
+boost_log_DIR:PATH=/usr/local/lib/cmake/boost_log-1.76.0
+
+//The directory containing a CMake configuration file for boost_log_setup.
+boost_log_setup_DIR:PATH=/usr/local/lib/cmake/boost_log_setup-1.76.0
+
+//The directory containing a CMake configuration file for boost_move.
+boost_move_DIR:PATH=boost_move_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_program_options.
+boost_program_options_DIR:PATH=/usr/local/lib/cmake/boost_program_options-1.76.0
+
+//The directory containing a CMake configuration file for boost_random.
+boost_random_DIR:PATH=/usr/local/lib/cmake/boost_random-1.76.0
+
+//The directory containing a CMake configuration file for boost_regex.
+boost_regex_DIR:PATH=/usr/local/lib/cmake/boost_regex-1.76.0
+
+//The directory containing a CMake configuration file for boost_serialization.
+boost_serialization_DIR:PATH=/usr/local/lib/cmake/boost_serialization-1.76.0
+
+//The directory containing a CMake configuration file for boost_syste.
+boost_syste_DIR:PATH=boost_syste_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for boost_system.
 boost_system_DIR:PATH=/usr/local/lib/cmake/boost_system-1.76.0
+
+//The directory containing a CMake configuration file for boost_thread.
+boost_thread_DIR:PATH=/usr/local/lib/cmake/boost_thread-1.76.0
+
+//The directory containing a CMake configuration file for boost_to.
+boost_to_DIR:PATH=boost_to_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_variant.hpp.
+boost_variant.hpp_DIR:PATH=boost_variant.hpp_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_variant2.
+boost_variant2_DIR:PATH=boost_variant2_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_variantREQUIRED.
+boost_variantREQUIRED_DIR:PATH=boost_variantREQUIRED_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_variant.
+boost_variant_DIR:PATH=boost_variant_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_variants.
+boost_variants_DIR:PATH=boost_variants_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_want.
+boost_want_DIR:PATH=boost_want_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_wave.
+boost_wave_DIR:PATH=/usr/local/lib/cmake/boost_wave-1.76.0
+
+//The directory containing a CMake configuration file for boost_you.
+boost_you_DIR:PATH=boost_you_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for variant.
+variant_DIR:PATH=variant_DIR-NOTFOUND
 
 
 ########################
@@ -349,6 +462,10 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/jeffsnguyen/OneDrive/Cloud Storage/Courses/Quantnet/C++/Quantnet_Cplusplus
@@ -415,13 +532,33 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake][cfound components: system filesystem ][v1.76.0(1.76.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake][cfound components: system filesystem random ][v1.76.0(1.76.0)]
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_chrono_DIR
+boost_chrono_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_filesystem_DIR
 boost_filesystem_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR
 boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_log_DIR
+boost_log_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_log_setup_DIR
+boost_log_setup_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_program_options_DIR
+boost_program_options_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_random_DIR
+boost_random_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_regex_DIR
+boost_regex_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_serialization_DIR
+boost_serialization_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_system_DIR
 boost_system_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_thread_DIR
+boost_thread_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_wave_DIR
+boost_wave_DIR-ADVANCED:INTERNAL=1
 

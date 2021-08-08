@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_3/test_variants.cpp.o -o Quantnet_Cplusplus 
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Quantnet_Cplusplus.dir/Level_8/Homework/Exercise_4/test_rng.cpp.o -o Quantnet_Cplusplus 

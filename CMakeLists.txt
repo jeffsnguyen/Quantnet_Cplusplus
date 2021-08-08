@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.19)
-project(Quantnet_Cplusplus)
+project(Quantnet_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Level_8/Homework/Exercise_3)
 
 add_executable(Quantnet_Cplusplus
-        Level_8/Homework/Exercise_3/test_variants.cpp)
+        Level_8/Homework/Exercise_4/test_rng.cpp)
 
 message(STATUS "start running cmake...")
 
-find_package(Boost 1.76.0 COMPONENTS system filesystem REQUIRED)
+find_package(Boost 1.76.0 COMPONENTS system filesystem random REQUIRED)
 
 if(Boost_FOUND)
 
@@ -19,5 +19,7 @@ if(Boost_FOUND)
     message(STATUS "Boost_VERSION: ${Boost_VERSION}")
 
     include_directories(${Boost_INCLUDE_DIRS})
+    link_directories(${Boost_LIBRARY_DIRS})
 
 endif()
+
