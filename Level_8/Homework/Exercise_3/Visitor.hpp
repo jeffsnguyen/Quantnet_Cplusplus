@@ -2,7 +2,7 @@
 // Level: 8
 // Section: Smart Pointers
 // Exercise: 3
-// Description: Test features of Boost library's variants
+// Description: Description of the Visitor class
 // In contrast to tuple, a boost::variant stores one value that can be of one of the specified types.
 //  It is thus similar to a C union but it is type-safe.
 // In this exercise we want to create a function that ask the user what kind of shape
@@ -38,108 +38,41 @@
 //  global function to move the shape.
 // Print the shape afterwards to check if the visitor indeed changed the coordinates.
 
+
 /*---------------------------------*/
+#ifndef Visitor_HPP
+#define Visitor_HPP
 
-#include "boost/variant.hpp"
-#include <iostream>
-#include "Circle.hpp"
-#include "Line.hpp"
+#include <boost/variant/static_visitor.hpp>
 #include "Point.hpp"
-#include "Visitor.hpp"
-
-
+#include "Line.hpp"
+#include "Circle.hpp"
+#include <iostream>
 using namespace std;
 
-typedef boost::variant<Point, Line, Circle> ShapeType;
-
 /*---------------------------------*/
-ShapeType shapeSelect()
+class Visitor: public boost::static_visitor<void>
 {
-    // Initialize
-    ShapeType shape;
-    char shapeSelectstr;  // To receive user answer
+private:
+    double m_dx;  // X coordinate
+    double m_dy;  // Y coordinate
 
-    cout << "Please choose the shape: (p)Point (l)Line (c)Circle" << endl;
-    cin >> shapeSelectstr;
+public:
+    // Constructors
+    Visitor();  // Default constructor
+    Visitor(double newX, double newY);  // Initialize with x and y value
+    Visitor(const Visitor &visitor);  // Copy constructor
 
-    // Assign correct variant based on user choice
-    switch (shapeSelectstr)
-    {
-        // Default
-        default:
-        {
-            shape = Point();
-            cout << "Default Point selected." << endl;  // User prompt message
-            break;
-        }
+    // Destructor
+    virtual ~Visitor();
 
-        // Point
-        case 'p':
-        {
-            shape = Point();
-            cout << "Point selected." << endl;  // User prompt message
-            break;
-        }
+    // Overloading operators
+    Visitor &operator=(const Visitor &source); // Assignment operator.
 
-        // Line
-        case 'l':
-        {
-            shape = Line();
-            cout << "Line selected." << endl;  // User prompt message
-            break;
-        }
+    // Operators for shapes
+    void operator()(Point& p) const;  // Overloading operators for point
+    void operator()(Line& l) const;  // Overloading operators for line
+    void operator()(Circle& c) const;  // Overloading operators for circle
+};
 
-        // Point
-        case 'c':
-        {
-            shape = Circle();
-            cout << "Circle selected." << endl;  // User prompt message
-            break;
-        }
-    }
-
-    return shape;
-}
-
-/*---------------------------------*/
-int main()
-{
-    /*---------------------------------*/
-    // User prompt to select shape and out put result
-    ShapeType shape=shapeSelect();
-    cout << "You selected: " << shape << endl;
-
-    /*---------------------------------*/
-    // Assign variant to line variable
-    try
-    {
-        Line line = boost::get<Line>(shape);
-    }
-    catch (boost::bad_get& error)
-    {
-        cout << "Error: " << error.what() << " Variant did not contain a line. "<< endl;
-    }
-
-    /*---------------------------------*/
-    // Test visitor
-
-    // Init
-    Visitor visitor(1, 1);
-    ShapeType shape1 = Point();
-    ShapeType shape2 = Line();
-    ShapeType shape3 = Circle();
-
-    // Move the shapes and print
-    boost::apply_visitor(visitor, shape1);
-    boost::apply_visitor(visitor, shape2);
-    boost::apply_visitor(visitor, shape3);
-
-    cout << "Shape1: " << shape1 << endl;
-    cout << "Shape2: " << shape2 << endl;
-    cout << "Shape3: " << shape3 << endl;
-
-    return 0;
-}
-
-
-
+#endif // Visitor_HPP

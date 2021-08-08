@@ -56,6 +56,7 @@ public:
     Point &operator=(const Point &source); // Assignment operator.
     Point &operator*=(double factor); // Scale the coordinates & assign.
     friend ostream &operator<<(ostream &os, const Point &p); // Send to ostream.
+
 };
 
 #endif // Point_HPP

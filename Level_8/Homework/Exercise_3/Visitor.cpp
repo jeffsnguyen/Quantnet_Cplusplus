@@ -2,7 +2,7 @@
 // Level: 8
 // Section: Smart Pointers
 // Exercise: 3
-// Description: Test features of Boost library's variants
+// Description: Source file contains functionalities for class Visitor()
 // In contrast to tuple, a boost::variant stores one value that can be of one of the specified types.
 //  It is thus similar to a C union but it is type-safe.
 // In this exercise we want to create a function that ask the user what kind of shape
@@ -38,108 +38,100 @@
 //  global function to move the shape.
 // Print the shape afterwards to check if the visitor indeed changed the coordinates.
 
+
 /*---------------------------------*/
-
-#include "boost/variant.hpp"
-#include <iostream>
-#include "Circle.hpp"
-#include "Line.hpp"
 #include "Point.hpp"
+#include "Line.hpp"
+#include "Circle.hpp"
 #include "Visitor.hpp"
-
+#include <iostream>
+#include <boost/variant/static_visitor.hpp>
 
 using namespace std;
 
-typedef boost::variant<Point, Line, Circle> ShapeType;
-
 /*---------------------------------*/
-ShapeType shapeSelect()
+// Initializing (x,y) = (0,0)
+Visitor::Visitor() : boost::static_visitor<void>(), m_dx(0), m_dy(0)
 {
-    // Initialize
-    ShapeType shape;
-    char shapeSelectstr;  // To receive user answer
-
-    cout << "Please choose the shape: (p)Point (l)Line (c)Circle" << endl;
-    cin >> shapeSelectstr;
-
-    // Assign correct variant based on user choice
-    switch (shapeSelectstr)
-    {
-        // Default
-        default:
-        {
-            shape = Point();
-            cout << "Default Point selected." << endl;  // User prompt message
-            break;
-        }
-
-        // Point
-        case 'p':
-        {
-            shape = Point();
-            cout << "Point selected." << endl;  // User prompt message
-            break;
-        }
-
-        // Line
-        case 'l':
-        {
-            shape = Line();
-            cout << "Line selected." << endl;  // User prompt message
-            break;
-        }
-
-        // Point
-        case 'c':
-        {
-            shape = Circle();
-            cout << "Circle selected." << endl;  // User prompt message
-            break;
-        }
-    }
-
-    return shape;
+    cout << "Default visitor created" << endl;
 }
 
-/*---------------------------------*/
-int main()
+// Initializing (x,y) = (newX,newY)
+Visitor::Visitor(double newX, double newY) : boost::static_visitor<void>(), m_dx(newX), m_dy(newY)
 {
-    /*---------------------------------*/
-    // User prompt to select shape and out put result
-    ShapeType shape=shapeSelect();
-    cout << "You selected: " << shape << endl;
-
-    /*---------------------------------*/
-    // Assign variant to line variable
-    try
-    {
-        Line line = boost::get<Line>(shape);
-    }
-    catch (boost::bad_get& error)
-    {
-        cout << "Error: " << error.what() << " Variant did not contain a line. "<< endl;
-    }
-
-    /*---------------------------------*/
-    // Test visitor
-
-    // Init
-    Visitor visitor(1, 1);
-    ShapeType shape1 = Point();
-    ShapeType shape2 = Line();
-    ShapeType shape3 = Circle();
-
-    // Move the shapes and print
-    boost::apply_visitor(visitor, shape1);
-    boost::apply_visitor(visitor, shape2);
-    boost::apply_visitor(visitor, shape3);
-
-    cout << "Shape1: " << shape1 << endl;
-    cout << "Shape2: " << shape2 << endl;
-    cout << "Shape3: " << shape3 << endl;
-
-    return 0;
+    cout << "Visitor created." << endl;
 }
 
+// Copy Constructor: Initializing (x,y) = (newX,newY)
+Visitor::Visitor(const Visitor& visitor) : boost::static_visitor<void>(), m_dx(visitor.m_dx), m_dy(visitor.m_dy)
+{
+    cout << "Copy constructor called." << endl;
+}
 
+// Destructor
+Visitor::~Visitor()
+{
+    cout << "Visitor destroyed.\n";
+}
 
+// Assignment operator.
+Visitor& Visitor::operator = (const Visitor& source)
+{
+    cout << "Assignment operator" << endl;
+    // Self-assignment preclusion
+    if (this == &source)
+    {
+        return *this;
+    }
+
+    {
+        // Call base class assignment
+        Shape::operator= (source);
+
+        m_dx = source.m_dx;
+        m_dy = source.m_dy;
+
+        return *this;  // Assign the result to itself
+    }
+}
+
+// Overloading operators for point
+void Visitor::operator() (Point& p) const
+{
+    // Accessing and assign coordinate of point p
+    p.X(p.X() + m_dx);
+    p.Y(p.Y() + m_dy);
+}
+
+// Overloading operators for line
+void Visitor::operator() (Line& l) const
+{
+
+    Point p1 = l.P1();
+    Point p2 = l.P2();
+
+    // Accessing and assign coordinate of points
+    p1.X(p1.X() + m_dx);
+    p1.Y(p1.Y() + m_dy);
+
+    p2.X(p2.X() + m_dx);
+    p2.Y(p2.Y() + m_dy);
+
+    // Assign line's start and end points
+    l.P1(p1);
+    l.P2(p2);
+}
+
+// Overloading operators for circle
+void Visitor::operator() (Circle& c) const
+{
+
+    Point p = c.C();
+
+    // Accessing and assign coordinate of points
+    p.X(p.X() + m_dx);
+    p.Y(p.Y() + m_dy);
+
+    // Assign circle's center point
+    c.C(p);
+}

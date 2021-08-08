@@ -31,7 +31,7 @@ private:
 
 public:
     // Constructors
-    //Line();  // Default constructor
+    Line();  // Default constructor
     Line(Point &newP1, Point &newP2);  // Initialize with start and end points
     Line(const Line &line);  // Copy constructor
 
