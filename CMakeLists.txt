@@ -3,10 +3,10 @@ project(Quantnet_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(Level_8/Homework/Exercise_5)
+include_directories(Level_9/Homework/Group_A)
 
 add_executable(Quantnet_Cplusplus
-        Level_8/Homework/Exercise_5/TestNormalDistribution.cpp)
+        Level_9/Homework/Group_A/test_EuropeanOptions.cpp)
 
 message(STATUS "start running cmake...")
 
