@@ -29,17 +29,17 @@ int main()
     T = 1.45
     sig = .51
     b = 0*/
-    //Batch 1: T = 0.25, K = 65, sig = 0.30, r = 0.08, S = 60 (then C = 2.13337, P = 5.84628)
+    // Batch 1: T = 0.25, K = 65, sig = 0.30, r = 0.08, S = 60 (then C = 2.13337, P = 5.84628)
     vecBatch.push_back(boost::make_tuple(1.45, 120, 0.51, 0.045,108));
 
-    //Batch 2: T = 1.0, K = 100, sig = 0.2, r = 0.0, S = 100 (then C = 7.96557, P = 7.96557)
-    //vecBatch.push_back(boost::make_tuple(1.0, 100.0, 0.2, 0.0, 100.0));
+    // Batch 2: T = 1.0, K = 100, sig = 0.2, r = 0.0, S = 100 (then C = 7.96557, P = 7.96557)
+    // vecBatch.push_back(boost::make_tuple(1.0, 100.0, 0.2, 0.0, 100.0));
 
-    //Batch 3: T = 1.0, K = 10, sig = 0.50, r = 0.12, S = 5 (C = 0.204058, P = 4.07326).
-    //vecBatch.push_back(boost::make_tuple(1.0, 10.0, 0.50, 0.12, 5.0));
+    // Batch 3: T = 1.0, K = 10, sig = 0.50, r = 0.12, S = 5 (C = 0.204058, P = 4.07326).
+    // vecBatch.push_back(boost::make_tuple(1.0, 10.0, 0.50, 0.12, 5.0));
 
-    //Batch 4: T = 30.0, K = 100.0, sig = 0.30, r = 0.08, S = 100.0 (C = 92.17570, P = 1.24750)
-    //	vecBatch.push_back(boost::make_tuple(30.0, 100.0, 0.30, 0.08, 100.0));
+    // Batch 4: T = 30.0, K = 100.0, sig = 0.30, r = 0.08, S = 100.0 (C = 92.17570, P = 1.24750)
+    // vecBatch.push_back(boost::make_tuple(30.0, 100.0, 0.30, 0.08, 100.0));
 
     //open a file for writing and saving the results
     ofstream fout("results.txt");
@@ -56,10 +56,10 @@ int main()
 	*/
     double T, K, sig, r, U, b;
 
-    //C: call option price; P: put option price
+    // C: call option price; P: put option price
     double C, P;
 
-    //mesh size
+    // mesh size
     int n = 41;
 
     vector<double> vecU = GenerateMeshArray(10.0, 50.0, n);
@@ -116,7 +116,7 @@ int main()
         option0.toggle();
         cout << "P( put option price ) = " << option0.CallToPut(option0.Price()) << endl;
         fout << "P( put option price ) = " << option0.CallToPut(option0.Price()) << endl;
-        //create EuropeanOption object
+        // create EuropeanOption object
         EuropeanOption option1;
         option1.T = T;
         option1.K = K;
@@ -124,10 +124,9 @@ int main()
         option1.r = r;
         option1.U = U;
         option1.b = b;
+
         // A.1.c)
         // Use constructor with EuropeanOptionData and calculate option price as a function of underlying price.
-
-
         cout << "\n\nBatch " << i + 1 << " \n" << endl;
         cout << "A.1.c). Use constructor with EuropeanOptionData and calculate option price as a function of underlying price." << endl;
         fout << "\n\nBatch " << i + 1 << " \n" << endl;
@@ -142,13 +141,12 @@ int main()
 
         // A.1.c)
         // Compute prices for a range of underlying value.
-
         cout << "\n\nBatch " << i + 1 << " \n" << endl;
         cout << "A.1.c). Compute prices for a range of underlying value." << endl;
         fout << "\n\nBatch " << i + 1 << " \n" << endl;
         fout << "A.1.c). Compute prices for a range of underlying value." << endl;
 
-        //create two vector, one is to save call result, one is to save put result
+        // create two vector, one is to save call result, one is to save put result
         vector<double> vecC1, vecP1;
         for (int j = 0; j < vecU.size(); j++)
         {
